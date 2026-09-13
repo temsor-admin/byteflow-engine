@@ -1,6 +1,6 @@
 {
-  "hook": "İşten dönünce neden hiç konuşmaz?",
-  "title": "Erkeğin Eve Gelince Susma Mekanizması",
+  "hook": "Magnezyum içip gece krampla uyanınca küsen o arkadaş.",
+  "title": "Gece Krampları ve Magnezyum Gerçeği",
   "scenes": [
     {
       "layout": "vertical-stack",
@@ -9,52 +9,69 @@
       "right": "ERKEK BEYNİ",
       "rows": [
         {
-          "label": "STRES YANITI",
-          "left": "Sohbetle oksitosin",
-          "right": "Sessizlikle kortizol",
-          "winner": "tie"
+          "id": "n1",
+          "label": "KAS KASILMASI"
         },
         {
-          "label": "SİSTEM MODU",
-          "left": "Tend-and-befriend",
-          "right": "Sempatik sistem kapanışı",
-          "winner": "tie"
+          "id": "n2",
+          "label": "MAGNEZYUM KİLİDİ"
         },
         {
-          "label": "İŞTEN DÖNÜŞ",
-          "left": "Anlatıp rahatlama",
-          "right": "20 dk mağara süresi",
-          "winner": "right"
+          "id": "n3",
+          "label": "GEVŞEME DÖNGÜSÜ"
+        }
+      ],
+      "steps": [
+        {
+          "from": "n1",
+          "to": "n2",
+          "packet": "KALSİ",
+          "status": "kalsiyum kasar magnezyum gevşeme",
+          "color": "warn"
+        },
+        {
+          "from": "n2",
+          "to": "n3",
+          "packet": "DEPO",
+          "status": "hücre deposu dolmadan kramp pes etmez",
+          "color": "accent"
+        },
+        {
+          "from": "n3",
+          "to": "n1",
+          "packet": "DENGE",
+          "status": "ilk akşamdan mucize bekleyen yaya kalır",
+          "color": "good"
         }
       ]
     }
   ],
-  "caption": "İşten dönünce kapıdan girip tek kelime etmeyen o anı hepiniz yaşadınız. Eve gelince susması sana bir ceza ya da ilgisizlik değil, tamamen beyindeki o şalter geçişiyle alakalı.\n\nİşten gelince yaşanan o meşhur 'mağara' ihtiyacının arkasındaki asıl mekanizma:\n\n1. Beyin Hala Mesaide (TPN Aktif) — Gün boyu sorun çözen beyin, 'iş bitirme' modunda kalır. Bu moddayken empati ve tatlı sohbeti yöneten 'goygoy modu' (DMN) hemen devreye giremez. Bilgisayarın kapanırken güncelleme yapması gibi düşün.\n2. Sorular Birer 'İş Emri' — O daha sistemini kapatamamışken sorduğun 'Günün nasıl geçti?' sorusu, ona romantik bir ilgi gibi değil, çözülmesi gereken acil bir Jira ticket'ı veya yeni bir iş görevi gibi gelir. Beyin otomatikman kendini korumaya alıp iletişimi kilitler.\n3. Şalterin İnme Süresi — Sempatik sistemin o harareti düşene kadar gelen her sözel girdi beyinde kırmızı alarm verir. Yani o ilk 20 dakikalık derin sessizlik, aslında beynin mesaiyi bitirip eve giriş yapabilmesi için gereken zorunlu bir nörolojik mola.\n\nKısacası eve girer girmez ona yeni görevler (yani sorular) yüklemek yerine, 20 dakika kendi halinde 'mavi ekran' vermesine izin verirsen, akşamın geri kalanı kurtulur.\n\nSuskunluğu kişisel algılayıp dert edindik, ama meğerse adam sadece beyin motorunu soğutuyormuş.\n\n📌 Kaydet — eve dönüş krizlerinde lazım olacak.\n🔁 Bunu eve gelen sevgilisinin ilk 20 dakika susmasını kişisel alan arkadaşına gönder.\nSen işten gelince anlatıp rahatlayan taraf mısın, susan mı?\nYazan: Ece.\nTakip et: @kizlar.kodu — her şeyin bir sebebi var.",
+  "caption": "İlk takviyeyi alıp ertesi sabah bacağın gevşemesini beklemek tam bir beklenti gafıdır.\n\nGece baldır krampları nasıl çözülür, adım adım:\n\n1. Kilitli Kas Mekanizması — Kas kasıldığında cırt cırt gibi kilitlenir; ortamda enerji olsa bile magnezyum yoksa o kilit mekanik olarak açılamaz.\n2. Enerji Anahtarı ve Magnezyum — Enerjinin kas lifini serbest bırakabilmesi için magnezyumla birleşip özel anahtarı oluşturması şarttır.\n3. Sabır ve Doygunluk — Hücre içi magnezyum deposu dolmadan o kilit açılmaz, ilk hapta mucize beklemek kasın biyolojisini saymamaktır.\n\nBir ürünü alırken tek bir dozla sonuç alamayacağını bilmek şarttır.\n\nSabırsızlığımız kas takvimini değiştirmiyor ama biz yine ilk günden mucize bekleyeceğiz.\n\n📌 Kaydet — bir dahaki gece krampında hatırlarsın.\n\n🔁 Bunu gece krampıyla uyanıp tek hapla mucize bekleyen arkadaşına gönder.\n\nGece bacağına kramp girince sen ne yapıyorsun: Tuz mu yutarsın magnezyum mu?\n\nYazan: Derin.\nTakip et: @cilt.kodu — güzellik, pazarlama değil.",
   "hashtags": [
-    "#merak",
-    "#kadınlar",
-    "#ilişkikodları",
-    "#erkekler",
-    "#günlükhayat",
-    "#mağaraihtiyacı",
-    "#iletişim"
+    "#saglik",
+    "#kadinlaricin",
+    "#magnezyum",
+    "#kramp",
+    "#beslenetavsiyesi",
+    "#eksiklikler",
+    "#kasagrisi"
   ],
-  "takeaway": "Eve gelince susması ceza değil, sempatik sistemin soğuma molasıdır.",
+  "takeaway": "İlk hapta kramp bitmez, kas deposu dolmadan gevşeme gerçekleşmez.",
   "footage_queries": [
-    "cozy home interior soft light",
-    "coffee cup steam morning light"
+    "ice pack on wooden surface close up",
+    "foam roller on floor close up"
   ],
   "narration": [
-    "İşten dönünce neden hiç konuşmaz?",
-    "Çünkü beyni hala 'iş bitirme' modunda takılı kalmıştır.",
-    "Sorduğun her soru ona yeni bir görev gibi gelir.",
-    "Sistem goygoy moduna geçene kadar o şalteri tamamen indirir.",
-    "Eve gelince konuşmaması sana tepki değil beyin sıfırlama sürecidir."
+    "Magnezyum içip gece krampla uyandın.",
+    "Kası sıkan cırt cırtı çözmek için magnezyum enerjinin anahtarına dönüşür.",
+    "Magnezyum yoksa vücutta enerji bulunsa bile kilitli kas asla gevşemez.",
+    "Hücredeki o özel kilit açılmadan baldırın rahat bir nefes alamaz.",
+    "Kas gevşemek için zaman ister pes etmeyip depoyu doldurun."
   ],
-  "subject": "mağara ihtiyacı",
-  "sendTo": "eve gelen sevgilisinin ilk 20 dakika susmasını kişisel alan arkadaşına",
-  "soru": "Sen işten gelince anlatıp rahatlayan taraf mısın, susan mı?",
-  "theme": "#7de2d1",
+  "subject": "magnezyum kramp",
+  "sendTo": "gece krampıyla uyanıp tek hapla mucize bekleyen arkadaşına",
+  "soru": "Gece bacağına kramp girince sen ne yapıyorsun: Tuz mu yutarsın magnezyum mu?",
+  "theme": "#e8a0a8",
   "brand": {
     "handle": "@cilt.kodu",
     "signoff": "güzellik, pazarlama değil",
@@ -78,29 +95,29 @@
   "footage": true,
   "beats": [
     {
-      "text": "İşten dönünce neden hiç konuşmaz?",
+      "text": "Magnezyum içip gece krampla uyandın.",
       "start": 0.35,
-      "dur": 2.476
+      "dur": 2.384
     },
     {
-      "text": "Çünkü beyni hala 'iş bitirme' modunda takılı kalmıştır.",
-      "start": 2.826,
-      "dur": 4.126
+      "text": "Kası sıkan cırt cırtı çözmek için magnezyum enerjinin anahtarına dönüşür.",
+      "start": 2.734,
+      "dur": 4.834
     },
     {
-      "text": "Sorduğun her soru ona yeni bir görev gibi gelir.",
-      "start": 6.952,
-      "dur": 3.601
+      "text": "Magnezyum yoksa vücutta enerji bulunsa bile kilitli kas asla gevşemez.",
+      "start": 7.568,
+      "dur": 4.636
     },
     {
-      "text": "Sistem goygoy moduna geçene kadar o şalteri tamamen indirir.",
-      "start": 10.553,
-      "dur": 4.501
+      "text": "Hücredeki o özel kilit açılmadan baldırın rahat bir nefes alamaz.",
+      "start": 12.204,
+      "dur": 4.304
     },
     {
-      "text": "Eve gelince konuşmaması sana tepki değil beyin sıfırlama sürecidir.",
-      "start": 15.054,
-      "dur": 6.127
+      "text": "Kas gevşemek için zaman ister pes etmeyip depoyu doldurun.",
+      "start": 16.508,
+      "dur": 4.941
     }
   ]
 }

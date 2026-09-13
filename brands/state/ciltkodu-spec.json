@@ -1,73 +1,74 @@
 {
-  "hook": "Filtresiz fotoğrafta etiketleyen o arkadaşın yine yaktı.",
-  "title": "Ayak İçe Basma ve Diz Ağrısı",
+  "hook": "Magnezyum içip gece krampla uyanınca küsen o arkadaş.",
+  "title": "Gece Krampları ve Magnezyum Gerçeği",
   "scenes": [
     {
       "layout": "nodes-flow",
       "kind": "diagram",
       "nodes": [
         {
-          "id": "node1",
-          "label": "TABAN ÇÖKMESİ"
+          "id": "n1",
+          "label": "KAS KASILMASI"
         },
         {
-          "id": "node2",
-          "label": "KALÇA İÇE DÖNER"
+          "id": "n2",
+          "label": "MAGNEZYUM KİLİDİ"
         },
         {
-          "id": "node3",
-          "label": "DİZİ BÜKER"
+          "id": "n3",
+          "label": "GEVŞEME DÖNGÜSÜ"
         }
       ],
       "steps": [
         {
-          "from": "node1",
-          "to": "node2",
-          "packet": "BASKI",
-          "status": "ayak içe çökünce taban dengesi kaybolur",
+          "from": "n1",
+          "to": "n2",
+          "packet": "KALSİ",
+          "status": "kalsiyum kasar magnezyum gevşeme",
           "color": "warn"
         },
         {
-          "from": "node2",
-          "to": "node3",
-          "packet": "DÖNME",
-          "status": "kalça zayıfsa kaval kemiği içeri döner",
-          "color": "warn"
+          "from": "n2",
+          "to": "n3",
+          "packet": "DEPO",
+          "status": "hücre deposu dolmadan kramp pes etmez",
+          "color": "accent"
         },
         {
-          "from": "node3",
-          "to": "node1",
-          "packet": "ÇÖZÜM",
-          "status": "tabanlık yetmez, asıl güç kalçada biter",
+          "from": "n3",
+          "to": "n1",
+          "packet": "DENGE",
+          "status": "ilk akşamdan mucize bekleyen yaya kalır",
           "color": "good"
         }
       ]
     }
   ],
-  "caption": "Filtresiz fotoğrafta dizlerin içe dönük çıkıyorsa suç fotoğrafta veya ayak tabanında değil.\n\nBütün gün sandalyede oturunca kalça kasların uykuyu çekiyor, yan kalça kası direksiyonu eline alıp bacağı içeri kilitliyor. Gizli mekanizma aynen şöyle çalışıyor:\n\n1. Masa Başı Kilidi — Uzun oturma derin kalçayı uyutur, yan kalça bacağı içeri çevirip kilitler.\n2. Bilek Freni — Bacak içe kilitlenince ayak bileği esneyemez, taban her adımda yere çöker.\n3. Yanıltıcı Çökme — Ayak kasların güçlü olsa bile yukarıdaki kilit yüzünden taban ezilmeye devam eder.\n\nPahalı tabanlıklar ayakkabının içine sünger koymaktan farksızdır, kalçadaki o sıkışmış vidayı asla gevşetmez. Fotoğraftaki açıya küsmeyi bırakıp kalça çalışmaya başlıyoruz.\n📌 Kaydet — bir dahaki duruş krizinde lazım olacak.\n🔁 Bunu seni filtresiz fotoğrafta etiketleyip duruşunu ifşalayan arkadaşına gönder.\nSen hangisisin: tabanlık alan mı kalça çalışmayı deneyen mi?\nYazan: Derin.\nTakip et: @cilt.kodu — güzellik, pazarlama değil.",
+  "caption": "İlk takviyeyi alıp ertesi sabah bacağın gevşemesini beklemek tam bir beklenti gafıdır.\n\nGece baldır krampları nasıl çözülür, adım adım:\n\n1. Kilitli Kas Mekanizması — Kas kasıldığında cırt cırt gibi kilitlenir; ortamda enerji olsa bile magnezyum yoksa o kilit mekanik olarak açılamaz.\n2. Enerji Anahtarı ve Magnezyum — Enerjinin kas lifini serbest bırakabilmesi için magnezyumla birleşip özel anahtarı oluşturması şarttır.\n3. Sabır ve Doygunluk — Hücre içi magnezyum deposu dolmadan o kilit açılmaz, ilk hapta mucize beklemek kasın biyolojisini saymamaktır.\n\nBir ürünü alırken tek bir dozla sonuç alamayacağını bilmek şarttır.\n\nSabırsızlığımız kas takvimini değiştirmiyor ama biz yine ilk günden mucize bekleyeceğiz.\n\n📌 Kaydet — bir dahaki gece krampında hatırlarsın.\n\n🔁 Bunu gece krampıyla uyanıp tek hapla mucize bekleyen arkadaşına gönder.\n\nGece bacağına kramp girince sen ne yapıyorsun: Tuz mu yutarsın magnezyum mu?\n\nYazan: Derin.\nTakip et: @cilt.kodu — güzellik, pazarlama değil.",
   "hashtags": [
-    "#saglikliyasam",
-    "#durusegitimi",
-    "#ayaksagligi",
-    "#dizagrisi",
-    "#postur",
-    "#ciltkodu"
+    "#saglik",
+    "#kadinlaricin",
+    "#magnezyum",
+    "#kramp",
+    "#beslenetavsiyesi",
+    "#eksiklikler",
+    "#kasagrisi"
   ],
-  "takeaway": "Tabanlık sadece makyajdır, dizini kurtaran şey güçlü kalçadır.",
+  "takeaway": "İlk hapta kramp bitmez, kas deposu dolmadan gevşeme gerçekleşmez.",
   "footage_queries": [
-    "running shoes on plain background",
-    "exercise mat rolled up close up"
+    "ice pack on wooden surface close up",
+    "foam roller on floor close up"
   ],
   "narration": [
-    "Filtresiz fotoğrafta etiketleyen arkadaşın yaktı.",
-    "Masa başında oturdukça yan kalça kasın bacağı içeri kilitler.",
-    "Kilitlenen uyluk yüzünden bilek donar, taban her adımda çöker.",
-    "Tabanlık koymak sıkışan o üst vidayı asla geri gevşetmez.",
-    "Dizlerini kurtarmak istiyorsan tabanlığa değil kalça kaslarına yatırım yapmalısın."
+    "Magnezyum içip gece krampla uyandın.",
+    "Kası sıkan cırt cırtı çözmek için magnezyum enerjinin anahtarına dönüşür.",
+    "Magnezyum yoksa vücutta enerji bulunsa bile kilitli kas asla gevşemez.",
+    "Hücredeki o özel kilit açılmadan baldırın rahat bir nefes alamaz.",
+    "Kas gevşemek için zaman ister pes etmeyip depoyu doldurun."
   ],
-  "subject": "ayak içe basma",
-  "sendTo": "seni filtresiz fotoğrafta etiketleyip duruşunu ifşalayan arkadaşına",
-  "soru": "Sen hangisisin: tabanlık alan mı kalça çalışmayı deneyen mi?",
+  "subject": "magnezyum kramp",
+  "sendTo": "gece krampıyla uyanıp tek hapla mucize bekleyen arkadaşına",
+  "soru": "Gece bacağına kramp girince sen ne yapıyorsun: Tuz mu yutarsın magnezyum mu?",
   "theme": "#e8a0a8",
   "brand": {
     "handle": "@cilt.kodu",
@@ -92,30 +93,30 @@
   "footage": true,
   "beats": [
     {
-      "text": "Filtresiz fotoğrafta etiketleyen arkadaşın yaktı.",
+      "text": "Magnezyum içip gece krampla uyandın.",
       "start": 0.35,
-      "dur": 3.149
+      "dur": 2.384
     },
     {
-      "text": "Masa başında oturdukça yan kalça kasın bacağı içeri kilitler.",
-      "start": 3.499,
-      "dur": 3.921
+      "text": "Kası sıkan cırt cırtı çözmek için magnezyum enerjinin anahtarına dönüşür.",
+      "start": 2.734,
+      "dur": 4.834
     },
     {
-      "text": "Kilitlenen uyluk yüzünden bilek donar, taban her adımda çöker.",
-      "start": 7.42,
-      "dur": 3.985
+      "text": "Magnezyum yoksa vücutta enerji bulunsa bile kilitli kas asla gevşemez.",
+      "start": 7.568,
+      "dur": 4.636
     },
     {
-      "text": "Tabanlık koymak sıkışan o üst vidayı asla geri gevşetmez.",
-      "start": 11.405,
-      "dur": 3.664
+      "text": "Hücredeki o özel kilit açılmadan baldırın rahat bir nefes alamaz.",
+      "start": 12.204,
+      "dur": 4.304
     },
     {
-      "text": "Dizlerini kurtarmak istiyorsan tabanlığa değil kalça kaslarına yatırım yapmalısın.",
-      "start": 15.069,
-      "dur": 6.371
+      "text": "Kas gevşemek için zaman ister pes etmeyip depoyu doldurun.",
+      "start": 16.508,
+      "dur": 4.941
     }
   ],
-  "thumbOffset": 2030
+  "thumbOffset": 1792
 }
