@@ -444,28 +444,28 @@
     "insightsAt": "2026-09-13T19:14:45.618Z"
   },
   {
-    "title": "Ye Yavrum Kodlaması",
-    "subject": "ye yavrum",
-    "twist": "beklenti",
-    "pillar": "aile-dinamigi",
+    "title": "Erkeğin Eve Gelince Susma Mekanizması",
+    "subject": "mağara ihtiyacı",
+    "twist": "magaza-danismani",
+    "pillar": "erkek-farki",
     "layout": "vertical-stack",
     "kinds": "versus",
     "motion": "orbit",
     "theme": "#7de2d1",
     "source": "gemini",
     "footage": [
-      "pexels:coffee cup steam morning light",
       "pexels:blanket folded on sofa close up",
+      "pexels:coffee cup steam morning light",
       "pexels:alarm clock on nightstand close up",
       "pexels:bathroom mirror steam close up"
     ],
-    "voice": 6,
-    "voiceName": "Puck",
+    "voice": 5,
+    "voiceName": "Kore",
     "muzik": "byteflow-ambient.mp3",
-    "sir": "Besleme eylemi, bakım verenin sinir sisteminde oksitosin vasıtasıyla dolaylı bir yatışma döngüsü başlatır. İkram reddedi",
+    "sir": "Gün boyu aktif olan Görev-Odaklı Ağ (TPN) duraksadığında, empati ve sohbeti yöneten Varsayılan Mod Ağı (DMN) hemen devre",
     "sirUygulandi": "kismi",
     "sirAtlandi": null,
-    "date": "2026-09-12",
-    "durSec": 21.8
+    "date": "2026-09-13",
+    "durSec": 21.2
   }
 ]

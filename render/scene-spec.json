@@ -1,74 +1,60 @@
 {
-  "hook": "Filtresiz fotoğrafta etiketleyen o arkadaşın yine yaktı.",
-  "title": "Ayak İçe Basma ve Diz Ağrısı",
+  "hook": "İşten dönünce neden hiç konuşmaz?",
+  "title": "Erkeğin Eve Gelince Susma Mekanizması",
   "scenes": [
     {
-      "layout": "nodes-flow",
-      "kind": "diagram",
-      "nodes": [
+      "layout": "vertical-stack",
+      "kind": "versus",
+      "left": "KADIN BEYNİ",
+      "right": "ERKEK BEYNİ",
+      "rows": [
         {
-          "id": "node1",
-          "label": "TABAN ÇÖKMESİ"
+          "label": "STRES YANITI",
+          "left": "Sohbetle oksitosin",
+          "right": "Sessizlikle kortizol",
+          "winner": "tie"
         },
         {
-          "id": "node2",
-          "label": "KALÇA İÇE DÖNER"
+          "label": "SİSTEM MODU",
+          "left": "Tend-and-befriend",
+          "right": "Sempatik sistem kapanışı",
+          "winner": "tie"
         },
         {
-          "id": "node3",
-          "label": "DİZİ BÜKER"
-        }
-      ],
-      "steps": [
-        {
-          "from": "node1",
-          "to": "node2",
-          "packet": "BASKI",
-          "status": "ayak içe çökünce taban dengesi kaybolur",
-          "color": "warn"
-        },
-        {
-          "from": "node2",
-          "to": "node3",
-          "packet": "DÖNME",
-          "status": "kalça zayıfsa kaval kemiği içeri döner",
-          "color": "warn"
-        },
-        {
-          "from": "node3",
-          "to": "node1",
-          "packet": "ÇÖZÜM",
-          "status": "tabanlık yetmez, asıl güç kalçada biter",
-          "color": "good"
+          "label": "İŞTEN DÖNÜŞ",
+          "left": "Anlatıp rahatlama",
+          "right": "20 dk mağara süresi",
+          "winner": "right"
         }
       ]
     }
   ],
-  "caption": "Filtresiz fotoğrafta dizlerin içe dönük çıkıyorsa suç fotoğrafta veya ayak tabanında değil.\n\nBütün gün sandalyede oturunca kalça kasların uykuyu çekiyor, yan kalça kası direksiyonu eline alıp bacağı içeri kilitliyor. Gizli mekanizma aynen şöyle çalışıyor:\n\n1. Masa Başı Kilidi — Uzun oturma derin kalçayı uyutur, yan kalça bacağı içeri çevirip kilitler.\n2. Bilek Freni — Bacak içe kilitlenince ayak bileği esneyemez, taban her adımda yere çöker.\n3. Yanıltıcı Çökme — Ayak kasların güçlü olsa bile yukarıdaki kilit yüzünden taban ezilmeye devam eder.\n\nPahalı tabanlıklar ayakkabının içine sünger koymaktan farksızdır, kalçadaki o sıkışmış vidayı asla gevşetmez. Fotoğraftaki açıya küsmeyi bırakıp kalça çalışmaya başlıyoruz.\n📌 Kaydet — bir dahaki duruş krizinde lazım olacak.\n🔁 Bunu seni filtresiz fotoğrafta etiketleyip duruşunu ifşalayan arkadaşına gönder.\nSen hangisisin: tabanlık alan mı kalça çalışmayı deneyen mi?\nYazan: Derin.\nTakip et: @cilt.kodu — güzellik, pazarlama değil.",
+  "caption": "İşten dönünce kapıdan girip tek kelime etmeyen o anı hepiniz yaşadınız. Eve gelince susması sana bir ceza ya da ilgisizlik değil, tamamen beyindeki o şalter geçişiyle alakalı.\n\nİşten gelince yaşanan o meşhur 'mağara' ihtiyacının arkasındaki asıl mekanizma:\n\n1. Beyin Hala Mesaide (TPN Aktif) — Gün boyu sorun çözen beyin, 'iş bitirme' modunda kalır. Bu moddayken empati ve tatlı sohbeti yöneten 'goygoy modu' (DMN) hemen devreye giremez. Bilgisayarın kapanırken güncelleme yapması gibi düşün.\n2. Sorular Birer 'İş Emri' — O daha sistemini kapatamamışken sorduğun 'Günün nasıl geçti?' sorusu, ona romantik bir ilgi gibi değil, çözülmesi gereken acil bir Jira ticket'ı veya yeni bir iş görevi gibi gelir. Beyin otomatikman kendini korumaya alıp iletişimi kilitler.\n3. Şalterin İnme Süresi — Sempatik sistemin o harareti düşene kadar gelen her sözel girdi beyinde kırmızı alarm verir. Yani o ilk 20 dakikalık derin sessizlik, aslında beynin mesaiyi bitirip eve giriş yapabilmesi için gereken zorunlu bir nörolojik mola.\n\nKısacası eve girer girmez ona yeni görevler (yani sorular) yüklemek yerine, 20 dakika kendi halinde 'mavi ekran' vermesine izin verirsen, akşamın geri kalanı kurtulur.\n\nSuskunluğu kişisel algılayıp dert edindik, ama meğerse adam sadece beyin motorunu soğutuyormuş.\n\n📌 Kaydet — eve dönüş krizlerinde lazım olacak.\n🔁 Bunu eve gelen sevgilisinin ilk 20 dakika susmasını kişisel alan arkadaşına gönder.\nSen işten gelince anlatıp rahatlayan taraf mısın, susan mı?\nYazan: Ece.\nTakip et: @kizlar.kodu — her şeyin bir sebebi var.",
   "hashtags": [
-    "#saglikliyasam",
-    "#durusegitimi",
-    "#ayaksagligi",
-    "#dizagrisi",
-    "#postur",
-    "#ciltkodu"
+    "#merak",
+    "#kadınlar",
+    "#ilişkikodları",
+    "#erkekler",
+    "#günlükhayat",
+    "#mağaraihtiyacı",
+    "#iletişim"
   ],
-  "takeaway": "Tabanlık sadece makyajdır, dizini kurtaran şey güçlü kalçadır.",
+  "takeaway": "Eve gelince susması ceza değil, sempatik sistemin soğuma molasıdır.",
   "footage_queries": [
-    "running shoes on plain background",
-    "exercise mat rolled up close up"
+    "cozy home interior soft light",
+    "coffee cup steam morning light"
   ],
   "narration": [
-    "Filtresiz fotoğrafta etiketleyen arkadaşın yaktı.",
-    "Masa başında oturdukça yan kalça kasın bacağı içeri kilitler.",
-    "Kilitlenen uyluk yüzünden bilek donar, taban her adımda çöker.",
-    "Tabanlık koymak sıkışan o üst vidayı asla geri gevşetmez.",
-    "Dizlerini kurtarmak istiyorsan tabanlığa değil kalça kaslarına yatırım yapmalısın."
+    "İşten dönünce neden hiç konuşmaz?",
+    "Çünkü beyni hala 'iş bitirme' modunda takılı kalmıştır.",
+    "Sorduğun her soru ona yeni bir görev gibi gelir.",
+    "Sistem goygoy moduna geçene kadar o şalteri tamamen indirir.",
+    "Eve gelince konuşmaması sana tepki değil beyin sıfırlama sürecidir."
   ],
-  "subject": "ayak içe basma",
-  "sendTo": "seni filtresiz fotoğrafta etiketleyip duruşunu ifşalayan arkadaşına",
-  "soru": "Sen hangisisin: tabanlık alan mı kalça çalışmayı deneyen mi?",
-  "theme": "#e8a0a8",
+  "subject": "mağara ihtiyacı",
+  "sendTo": "eve gelen sevgilisinin ilk 20 dakika susmasını kişisel alan arkadaşına",
+  "soru": "Sen işten gelince anlatıp rahatlayan taraf mısın, susan mı?",
+  "theme": "#7de2d1",
   "brand": {
     "handle": "@cilt.kodu",
     "signoff": "güzellik, pazarlama değil",
@@ -92,29 +78,29 @@
   "footage": true,
   "beats": [
     {
-      "text": "Filtresiz fotoğrafta etiketleyen arkadaşın yaktı.",
+      "text": "İşten dönünce neden hiç konuşmaz?",
       "start": 0.35,
-      "dur": 3.149
+      "dur": 2.476
     },
     {
-      "text": "Masa başında oturdukça yan kalça kasın bacağı içeri kilitler.",
-      "start": 3.499,
-      "dur": 3.921
+      "text": "Çünkü beyni hala 'iş bitirme' modunda takılı kalmıştır.",
+      "start": 2.826,
+      "dur": 4.126
     },
     {
-      "text": "Kilitlenen uyluk yüzünden bilek donar, taban her adımda çöker.",
-      "start": 7.42,
-      "dur": 3.985
+      "text": "Sorduğun her soru ona yeni bir görev gibi gelir.",
+      "start": 6.952,
+      "dur": 3.601
     },
     {
-      "text": "Tabanlık koymak sıkışan o üst vidayı asla geri gevşetmez.",
-      "start": 11.405,
-      "dur": 3.664
+      "text": "Sistem goygoy moduna geçene kadar o şalteri tamamen indirir.",
+      "start": 10.553,
+      "dur": 4.501
     },
     {
-      "text": "Dizlerini kurtarmak istiyorsan tabanlığa değil kalça kaslarına yatırım yapmalısın.",
-      "start": 15.069,
-      "dur": 6.371
+      "text": "Eve gelince konuşmaması sana tepki değil beyin sıfırlama sürecidir.",
+      "start": 15.054,
+      "dur": 6.127
     }
   ]
 }

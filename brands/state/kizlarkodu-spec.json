@@ -1,66 +1,59 @@
 {
-  "hook": "Annenin koyduğu yemeği reddetmek neden bu kadar zor?",
-  "title": "Ye Yavrum Kodlaması",
+  "hook": "İşten dönünce neden hiç konuşmaz?",
+  "title": "Erkeğin Eve Gelince Susma Mekanizması",
   "scenes": [
     {
       "layout": "vertical-stack",
       "kind": "versus",
-      "left": "SENİN BAKIŞIN",
-      "right": "ANNENİN BAKIŞIN",
+      "left": "KADIN BEYNİ",
+      "right": "ERKEK BEYNİ",
       "rows": [
         {
-          "label": "TABAKTAKİ",
-          "left": "Ekstra kalori ve porsiyon",
-          "right": "Bakım ve koruma arzusu",
-          "winner": "right"
-        },
-        {
-          "label": "REDDETMEK",
-          "left": "İştahsızlık veya diyet",
-          "right": "Emeğe ve sevgiye ret",
-          "winner": "right"
-        },
-        {
-          "label": "GİZLİ MESAJ",
-          "left": "Gerçekten doydum",
-          "right": "Beni artık takmıyorsun",
-          "winner": "left"
-        },
-        {
-          "label": "HİSSEDİLEN",
-          "left": "Fiziksel şişkinlik",
-          "right": "Bilinçaltı vicdan azabı",
+          "label": "STRES YANITI",
+          "left": "Sohbetle oksitosin",
+          "right": "Sessizlikle kortizol",
           "winner": "tie"
+        },
+        {
+          "label": "SİSTEM MODU",
+          "left": "Tend-and-befriend",
+          "right": "Sempatik sistem kapanışı",
+          "winner": "tie"
+        },
+        {
+          "label": "İŞTEN DÖNÜŞ",
+          "left": "Anlatıp rahatlama",
+          "right": "20 dk mağara süresi",
+          "winner": "right"
         }
       ]
     }
   ],
-  "caption": "Annenin tabağı tepeleme doldurması kalori meselesi değil, kendi sinir sistemini yatıştırma mekanizmasıdır.\n\nAnnenin 'ye yavrum' baskısının arkasındaki nörobiyolojik sır:\n\n1. Anne seni beslediğinde, kendi sinir sisteminde oksitosin vasıtasıyla dolaylı bir rahatlama döngüsü başlatır.\n2. Sen yemeği reddettiğinde bu nörokimyasal yatışma aniden yarım kalır.\n3. Annende oluşan bu fizyolojik tamamlanmamışlık gerilimi, sana anında görünmez bir suçluluk sinyali olarak yansır.\n4. Yani doydum dediğinde aslında yemeği değil, annenin kendi kendini sakinleştirme seansını kesmiş olursun.\n\nO ikinci kase çorbayı içeceğiz, kaçış yok.\n\n📌 Kaydet — bir dahaki akşam yemeğinde lazım olacak.\n\n🔁 Bunu annesi her ziyarette tabağını tepeleme dolduran arkadaşına gönder.\n\nSen de 'doydum' deyince annenden fırça yiyor musun?\n\nYazan: Ece.\n\nTakip et: @kizlar.kodu — her şeyin bir sebebi var.",
+  "caption": "İşten dönünce kapıdan girip tek kelime etmeyen o anı hepiniz yaşadınız. Eve gelince susması sana bir ceza ya da ilgisizlik değil, tamamen beyindeki o şalter geçişiyle alakalı.\n\nİşten gelince yaşanan o meşhur 'mağara' ihtiyacının arkasındaki asıl mekanizma:\n\n1. Beyin Hala Mesaide (TPN Aktif) — Gün boyu sorun çözen beyin, 'iş bitirme' modunda kalır. Bu moddayken empati ve tatlı sohbeti yöneten 'goygoy modu' (DMN) hemen devreye giremez. Bilgisayarın kapanırken güncelleme yapması gibi düşün.\n2. Sorular Birer 'İş Emri' — O daha sistemini kapatamamışken sorduğun 'Günün nasıl geçti?' sorusu, ona romantik bir ilgi gibi değil, çözülmesi gereken acil bir Jira ticket'ı veya yeni bir iş görevi gibi gelir. Beyin otomatikman kendini korumaya alıp iletişimi kilitler.\n3. Şalterin İnme Süresi — Sempatik sistemin o harareti düşene kadar gelen her sözel girdi beyinde kırmızı alarm verir. Yani o ilk 20 dakikalık derin sessizlik, aslında beynin mesaiyi bitirip eve giriş yapabilmesi için gereken zorunlu bir nörolojik mola.\n\nKısacası eve girer girmez ona yeni görevler (yani sorular) yüklemek yerine, 20 dakika kendi halinde 'mavi ekran' vermesine izin verirsen, akşamın geri kalanı kurtulur.\n\nSuskunluğu kişisel algılayıp dert edindik, ama meğerse adam sadece beyin motorunu soğutuyormuş.\n\n📌 Kaydet — eve dönüş krizlerinde lazım olacak.\n🔁 Bunu eve gelen sevgilisinin ilk 20 dakika susmasını kişisel alan arkadaşına gönder.\nSen işten gelince anlatıp rahatlayan taraf mısın, susan mı?\nYazan: Ece.\nTakip et: @kizlar.kodu — her şeyin bir sebebi var.",
   "hashtags": [
     "#merak",
     "#kadınlar",
-    "#annekız",
-    "#ilişkiler",
-    "#psikoloji",
-    "#yeyavrum",
-    "#günlükhayat"
+    "#ilişkikodları",
+    "#erkekler",
+    "#günlükhayat",
+    "#mağaraihtiyacı",
+    "#iletişim"
   ],
-  "takeaway": "Tabağı değil emeği reddediyorsun, vicdan azabının tek sebebi bu.",
+  "takeaway": "Eve gelince susması ceza değil, sempatik sistemin soğuma molasıdır.",
   "footage_queries": [
-    "coffee cup steam morning light",
-    "cozy home interior soft light"
+    "cozy home interior soft light",
+    "coffee cup steam morning light"
   ],
   "narration": [
-    "Annenin tabağını reddetmek neden suçluluk yaratır?",
-    "Anne seni besleyince kendi sinir sistemini oksitosinle hızlıca yatıştırır.",
-    "Tabağı geri çevirdiğinde bu biyolojik rahatlama döngüsü yarım kalır.",
-    "Annede biriken o anlık gerilim sana suçluluk olarak yansır.",
-    "Yani olay kalori değil, annenin şalterinin aniden atmasıdır.",
-    "Tabağı değil emeği reddediyorsun, vicdan azabının tek sebebi bu."
+    "İşten dönünce neden hiç konuşmaz?",
+    "Çünkü beyni hala 'iş bitirme' modunda takılı kalmıştır.",
+    "Sorduğun her soru ona yeni bir görev gibi gelir.",
+    "Sistem goygoy moduna geçene kadar o şalteri tamamen indirir.",
+    "Eve gelince konuşmaması sana tepki değil beyin sıfırlama sürecidir."
   ],
-  "subject": "ye yavrum",
-  "sendTo": "annesi her ziyarette tabağını tepeleme dolduran arkadaşına",
-  "soru": "Sen de 'doydum' deyince annenden fırça yiyor musun?",
+  "subject": "mağara ihtiyacı",
+  "sendTo": "eve gelen sevgilisinin ilk 20 dakika susmasını kişisel alan arkadaşına",
+  "soru": "Sen işten gelince anlatıp rahatlayan taraf mısın, susan mı?",
   "theme": "#7de2d1",
   "brand": {
     "handle": "@kizlar.kodu",
@@ -85,35 +78,30 @@
   "footage": true,
   "beats": [
     {
-      "text": "Annenin tabağını reddetmek neden suçluluk yaratır?",
+      "text": "İşten dönünce neden hiç konuşmaz?",
       "start": 0.35,
-      "dur": 2.722
+      "dur": 2.476
     },
     {
-      "text": "Anne seni besleyince kendi sinir sistemini oksitosinle hızlıca yatıştırır.",
-      "start": 3.072,
-      "dur": 4.029
+      "text": "Çünkü beyni hala 'iş bitirme' modunda takılı kalmıştır.",
+      "start": 2.826,
+      "dur": 4.126
     },
     {
-      "text": "Tabağı geri çevirdiğinde bu biyolojik rahatlama döngüsü yarım kalır.",
-      "start": 7.101,
-      "dur": 3.702
+      "text": "Sorduğun her soru ona yeni bir görev gibi gelir.",
+      "start": 6.952,
+      "dur": 3.601
     },
     {
-      "text": "Annede biriken o anlık gerilim sana suçluluk olarak yansır.",
-      "start": 10.804,
-      "dur": 3.212
+      "text": "Sistem goygoy moduna geçene kadar o şalteri tamamen indirir.",
+      "start": 10.553,
+      "dur": 4.501
     },
     {
-      "text": "Yani olay kalori değil, annenin şalterinin aniden atmasıdır.",
-      "start": 14.016,
-      "dur": 3.267
-    },
-    {
-      "text": "Tabağı değil emeği reddediyorsun, vicdan azabının tek sebebi bu.",
-      "start": 17.283,
-      "dur": 4.585
+      "text": "Eve gelince konuşmaması sana tepki değil beyin sıfırlama sürecidir.",
+      "start": 15.054,
+      "dur": 6.127
     }
   ],
-  "thumbOffset": 1961
+  "thumbOffset": 1838
 }
