@@ -1108,28 +1108,28 @@
     "insightsAt": "2026-09-13T17:56:10.750Z"
   },
   {
-    "title": "Statik Esnetme Yanılgısı",
-    "subject": "esnetme yanılgısı",
-    "twist": "aile-tavsiyesi",
-    "pillar": "efsane-saglik",
+    "title": "Ayak İçe Basma ve Diz Ağrısı",
+    "subject": "ayak içe basma",
+    "twist": "on-kamera",
+    "pillar": "durus-ve-hareket",
     "layout": "nodes-flow",
     "kinds": "diagram",
     "motion": "camera",
     "theme": "#e8a0a8",
     "source": "gemini",
     "footage": [
+      "pexels:jump rope on gym floor close up",
       "pexels:exercise mat rolled up close up",
-      "pexels:resistance band on floor close up",
       "pexels:running shoes on plain background",
       "pexels:foam roller on floor close up"
     ],
     "voice": 5,
-    "voiceName": "Aoede",
+    "voiceName": "Puck",
     "muzik": "byteflow-ambient.mp3",
-    "sir": "Statik esnetme tendon yapısında viskoelastik sürünme yaratarak elastik enerjiyi düşürürken, Ia afferent sinyallerini bas",
+    "sir": "Uzun süre oturmak derin kalça dış rotatörlerini inhibe ettiğinde, yükü devralan Tensor Fasciae Latae (TFL) kası uyluk ke",
     "sirUygulandi": "kismi",
     "sirAtlandi": null,
-    "date": "2026-09-12",
+    "date": "2026-09-13",
     "durSec": 21.4
   }
 ]

@@ -1,74 +1,73 @@
 {
-  "hook": "Sporda esnetme yapmak gücünü düşürür.",
-  "title": "Statik Esnetme Yanılgısı",
+  "hook": "Filtresiz fotoğrafta etiketleyen o arkadaşın yine yaktı.",
+  "title": "Ayak İçe Basma ve Diz Ağrısı",
   "scenes": [
     {
       "layout": "nodes-flow",
       "kind": "diagram",
       "nodes": [
         {
-          "id": "N1",
-          "label": "STATİK ESNEME"
+          "id": "node1",
+          "label": "TABAN ÇÖKMESİ"
         },
         {
-          "id": "N2",
-          "label": "GEVŞEYEN TENDON"
+          "id": "node2",
+          "label": "KALÇA İÇE DÖNER"
         },
         {
-          "id": "N3",
-          "label": "GÜÇ VE RİSK"
+          "id": "node3",
+          "label": "DİZİ BÜKER"
         }
       ],
       "steps": [
         {
-          "from": "N1",
-          "to": "N2",
-          "packet": "GERME",
-          "status": "kas ve tendonlar gerilip gevşer",
-          "color": "accent"
-        },
-        {
-          "from": "N2",
-          "to": "N3",
-          "packet": "GÜÇ",
-          "status": "gerilen kas patlayıcı gücü kaybeder",
+          "from": "node1",
+          "to": "node2",
+          "packet": "BASKI",
+          "status": "ayak içe çökünce taban dengesi kaybolur",
           "color": "warn"
         },
         {
-          "from": "N3",
-          "to": "N1",
-          "packet": "SAKAT",
-          "status": "eklem desteksiz kalır sakatlık artar",
+          "from": "node2",
+          "to": "node3",
+          "packet": "DÖNME",
+          "status": "kalça zayıfsa kaval kemiği içeri döner",
           "color": "warn"
+        },
+        {
+          "from": "node3",
+          "to": "node1",
+          "packet": "ÇÖZÜM",
+          "status": "tabanlık yetmez, asıl güç kalçada biter",
+          "color": "good"
         }
       ]
     }
   ],
-  "caption": "Spordan önce bacak esnetip sakatlanan kulübe hoş geldiniz.\n\nAntrenman öncesi yapılan uzun statik esneme performansı nasıl düşürür, adım adım:\n\n1. Tendon Sürünmesi — Kası uzun süre gerdiğinde tendonun yay gibi enerji depolayan yapısı gevşer ve elastik gücünü kaybeder.\n2. Sinir Sinyali Bastırma — Kastaki Ia afferent sinyalleri baskılanır, sinir sistemi kası adeta koruma moduna alıp derin uykuya sokar.\n3. Motor Birim Blokajı — Beyin, ağırlık kaldırırken en çok ihtiyacın olan yüksek eşikli Tip II motor birimleri ateşlemeyi geçici olarak durdurur.\n\nSpordan önce yapılması gereken kası uyutmak değil, kan dolaşımını artıran dinamik hareketlerle ısıtmaktır.\n\nSalondaki o çok bilen arkadaşın aksi iddia etse de biyoloji yalan söylemez.\n\n📌 Kaydet — bir dahaki antrenmanda lazım olacak.\n🔁 Bunu spora başlamadan önce 15 dakika esneyen o arkadaşına gönder.\nSen spordan önce statik esneme mi yoksa dinamik ısınma mı yapıyorsun?\nYazan: Derin.\nTakip et: @cilt.kodu — güzellik, pazarlama değil.",
+  "caption": "Filtresiz fotoğrafta dizlerin içe dönük çıkıyorsa suç fotoğrafta veya ayak tabanında değil.\n\nBütün gün sandalyede oturunca kalça kasların uykuyu çekiyor, yan kalça kası direksiyonu eline alıp bacağı içeri kilitliyor. Gizli mekanizma aynen şöyle çalışıyor:\n\n1. Masa Başı Kilidi — Uzun oturma derin kalçayı uyutur, yan kalça bacağı içeri çevirip kilitler.\n2. Bilek Freni — Bacak içe kilitlenince ayak bileği esneyemez, taban her adımda yere çöker.\n3. Yanıltıcı Çökme — Ayak kasların güçlü olsa bile yukarıdaki kilit yüzünden taban ezilmeye devam eder.\n\nPahalı tabanlıklar ayakkabının içine sünger koymaktan farksızdır, kalçadaki o sıkışmış vidayı asla gevşetmez. Fotoğraftaki açıya küsmeyi bırakıp kalça çalışmaya başlıyoruz.\n📌 Kaydet — bir dahaki duruş krizinde lazım olacak.\n🔁 Bunu seni filtresiz fotoğrafta etiketleyip duruşunu ifşalayan arkadaşına gönder.\nSen hangisisin: tabanlık alan mı kalça çalışmayı deneyen mi?\nYazan: Derin.\nTakip et: @cilt.kodu — güzellik, pazarlama değil.",
   "hashtags": [
-    "#sporsağlığı",
-    "#egzersiz",
-    "#esnetme",
-    "#spor",
-    "#kasısınma",
-    "#fitnesstürkiye",
-    "#sağlıklıyaşam"
+    "#saglikliyasam",
+    "#durusegitimi",
+    "#ayaksagligi",
+    "#dizagrisi",
+    "#postur",
+    "#ciltkodu"
   ],
-  "takeaway": "Spora başlamadan kası esnetip uyutma, hareketle uyandır.",
+  "takeaway": "Tabanlık sadece makyajdır, dizini kurtaran şey güçlü kalçadır.",
   "footage_queries": [
-    "exercise mat rolled up close up",
-    "resistance band on floor close up"
+    "running shoes on plain background",
+    "exercise mat rolled up close up"
   ],
   "narration": [
-    "Sporda esnetme yapmak gücünü düşürür.",
-    "Uzun esnetme tendonun yay gibi enerji depolayan yapısını gevşetip salar.",
-    "Kastan giden sinyal kesilince sinir sistemi kası adeta uykuya sokar.",
-    "Beyin patlayıcı güç üreten ana motor birimleri çalıştırmayı geçici durdurur.",
-    "Spora başlamadan kası esnetip uyutma dinamik hareketlerle güzelce uyandır."
+    "Filtresiz fotoğrafta etiketleyen arkadaşın yaktı.",
+    "Masa başında oturdukça yan kalça kasın bacağı içeri kilitler.",
+    "Kilitlenen uyluk yüzünden bilek donar, taban her adımda çöker.",
+    "Tabanlık koymak sıkışan o üst vidayı asla geri gevşetmez.",
+    "Dizlerini kurtarmak istiyorsan tabanlığa değil kalça kaslarına yatırım yapmalısın."
   ],
-  "subject": "esnetme yanılgısı",
-  "sendTo": "spora başlamadan önce 15 dakika esneyen o arkadaşına",
-  "soru": "Sen spordan önce statik esneme mi yoksa dinamik ısınma mı yapıyorsun?",
+  "subject": "ayak içe basma",
+  "sendTo": "seni filtresiz fotoğrafta etiketleyip duruşunu ifşalayan arkadaşına",
+  "soru": "Sen hangisisin: tabanlık alan mı kalça çalışmayı deneyen mi?",
   "theme": "#e8a0a8",
   "brand": {
     "handle": "@cilt.kodu",
@@ -93,30 +92,30 @@
   "footage": true,
   "beats": [
     {
-      "text": "Sporda esnetme yapmak gücünü düşürür.",
+      "text": "Filtresiz fotoğrafta etiketleyen arkadaşın yaktı.",
       "start": 0.35,
-      "dur": 2.262
+      "dur": 3.149
     },
     {
-      "text": "Uzun esnetme tendonun yay gibi enerji depolayan yapısını gevşetip salar.",
-      "start": 2.612,
-      "dur": 4.402
+      "text": "Masa başında oturdukça yan kalça kasın bacağı içeri kilitler.",
+      "start": 3.499,
+      "dur": 3.921
     },
     {
-      "text": "Kastan giden sinyal kesilince sinir sistemi kası adeta uykuya sokar.",
-      "start": 7.015,
-      "dur": 4.158
+      "text": "Kilitlenen uyluk yüzünden bilek donar, taban her adımda çöker.",
+      "start": 7.42,
+      "dur": 3.985
     },
     {
-      "text": "Beyin patlayıcı güç üreten ana motor birimleri çalıştırmayı geçici durdurur.",
-      "start": 11.172,
-      "dur": 4.647
+      "text": "Tabanlık koymak sıkışan o üst vidayı asla geri gevşetmez.",
+      "start": 11.405,
+      "dur": 3.664
     },
     {
-      "text": "Spora başlamadan kası esnetip uyutma dinamik hareketlerle güzelce uyandır.",
-      "start": 15.819,
-      "dur": 5.625
+      "text": "Dizlerini kurtarmak istiyorsan tabanlığa değil kalça kaslarına yatırım yapmalısın.",
+      "start": 15.069,
+      "dur": 6.371
     }
   ],
-  "thumbOffset": 1731
+  "thumbOffset": 2030
 }
