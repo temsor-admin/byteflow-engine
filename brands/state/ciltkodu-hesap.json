@@ -506,13 +506,13 @@
   {
     "date": "2026-09-16",
     "followers": 23,
-    "mediaCount": 28,
+    "mediaCount": 29,
     "metrikler": {
-      "reach": 0,
-      "views": 0,
-      "profile_views": 0,
-      "accounts_engaged": 0
+      "reach": 2,
+      "views": 2,
+      "profile_views": 1,
+      "accounts_engaged": 1
     },
-    "olcumAt": "2026-09-15T21:35:39.849Z"
+    "olcumAt": "2026-09-16T18:41:02.978Z"
   }
 ]
