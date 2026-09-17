@@ -1,75 +1,74 @@
 {
-  "hook": "Magnezyum içip gece krampla uyanınca küsen o arkadaş.",
-  "title": "Gece Krampları ve Magnezyum Gerçeği",
+  "hook": "Gece modu açıp saat üçte reels kaydıran o insan.",
+  "title": "Mavi Işık ve Gece Modu Yalanı",
   "scenes": [
     {
-      "layout": "nodes-flow",
+      "layout": "vertical-stack",
       "kind": "diagram",
       "nodes": [
         {
           "id": "n1",
-          "label": "KAS KASILMASI"
+          "label": "EKRAN PARLAKLIĞI"
         },
         {
           "id": "n2",
-          "label": "MAGNEZYUM KİLİDİ"
+          "label": "GECE MODU FİLTRESİ"
         },
         {
           "id": "n3",
-          "label": "GEVŞEME DÖNGÜSÜ"
+          "label": "BEYİN VE MELATONİN"
         }
       ],
       "steps": [
         {
           "from": "n1",
           "to": "n2",
-          "packet": "KALSİ",
-          "status": "kalsiyum kasar magnezyum gevşeme",
+          "packet": "IŞIK",
+          "status": "turuncu filtre mavi ışığı tam kesmez",
           "color": "warn"
         },
         {
           "from": "n2",
           "to": "n3",
-          "packet": "DEPO",
-          "status": "hücre deposu dolmadan kramp pes etmez",
-          "color": "accent"
+          "packet": "UYARI",
+          "status": "parlaklık ve içerik beyni uyanık tutar",
+          "color": "warn"
         },
         {
           "from": "n3",
           "to": "n1",
-          "packet": "DENGE",
-          "status": "ilk akşamdan mucize bekleyen yaya kalır",
-          "color": "good"
+          "packet": "BASKI",
+          "status": "melatonin salgısı gecikir uyku kaçar",
+          "color": "accent"
         }
       ]
     }
   ],
-  "caption": "İlk takviyeyi alıp ertesi sabah bacağın gevşemesini beklemek tam bir beklenti gafıdır.\n\nGece baldır krampları nasıl çözülür, adım adım:\n\n1. Kilitli Kas Mekanizması — Kas kasıldığında cırt cırt gibi kilitlenir; ortamda enerji olsa bile magnezyum yoksa o kilit mekanik olarak açılamaz.\n2. Enerji Anahtarı ve Magnezyum — Enerjinin kas lifini serbest bırakabilmesi için magnezyumla birleşip özel anahtarı oluşturması şarttır.\n3. Sabır ve Doygunluk — Hücre içi magnezyum deposu dolmadan o kilit açılmaz, ilk hapta mucize beklemek kasın biyolojisini saymamaktır.\n\nBir ürünü alırken tek bir dozla sonuç alamayacağını bilmek şarttır.\n\nSabırsızlığımız kas takvimini değiştirmiyor ama biz yine ilk günden mucize bekleyeceğiz.\n\n📌 Kaydet — bir dahaki gece krampında hatırlarsın.\n\n🔁 Bunu gece krampıyla uyanıp tek hapla mucize bekleyen arkadaşına gönder.\n\nGece bacağına kramp girince sen ne yapıyorsun: Tuz mu yutarsın magnezyum mu?\n\nYazan: Derin.\nTakip et: @cilt.kodu — güzellik, pazarlama değil.",
+  "caption": "Gece modu açıp saat üçte reels kaydıran o insan.\n\nSarı ekrana bakıp 'ben uykumu koruyorum' derken gece yarısı kendini buzdolabının önünde buluyorsan dinle. Olay sadece uykunun kaçması değil.\n\nTelefonu sarı ekrana almak aslında ne yapıyor, adım adım:\n\n1. Kasların Kafası Karışıyor — Mavi ışık, kas hücrelerindeki gece saatini bozar. Spor sonrası yediğin o temiz akşam yemeğinin enerjisi kaslara gidemez, yolda kalır.\n2. Sahte Açlık Alarmı — Kaslar enerjiyi alamayınca beyne 'acil durum, aç kaldık!' sinyali gider. Vücut panikler.\n3. Gece Yarısı Nöbeti — Gece tam ikiye doğru o meşhur açlık hormonu tavan yapar. Kendini mutfakta ekmek kemirirken bulursun.\n\nGece modu mucize değil, ekranı kapatmak tek çözüm.\n\nSarı ekrana bakıp sabah yorgun ve şiş uyanmaya devam edeceğiz ama olsun.\n\n📌 Kaydet — gece yatakta uyku ararken lazım olur.\n\n🔁 Bunu gece ikiye kadar ekrana bakıp uyuyamayan arkadaşına gönder.\n\nGece modun sürekli açık mı yoksa uyumadan hemen önce mi açıyorsun?\n\nYazan: Derin.\n\nTakip et: @cilt.kodu — güzellik, pazarlama değil.",
   "hashtags": [
-    "#saglik",
-    "#kadinlaricin",
-    "#magnezyum",
-    "#kramp",
-    "#beslenetavsiyesi",
-    "#eksiklikler",
-    "#kasagrisi"
+    "#uyku",
+    "#sağlık",
+    "#maviışık",
+    "#gecemodu",
+    "#uykukalitesi",
+    "#melatonin"
   ],
-  "takeaway": "İlk hapta kramp bitmez, kas deposu dolmadan gevşeme gerçekleşmez.",
+  "takeaway": "Gece modu mucize değil, ekranı kapatmak tek çözüm.",
   "footage_queries": [
-    "ice pack on wooden surface close up",
-    "foam roller on floor close up"
+    "sleep mask on nightstand close up",
+    "herbal tea cup steam close up"
   ],
   "narration": [
-    "Magnezyum içip gece krampla uyandın.",
-    "Kası sıkan cırt cırtı çözmek için magnezyum enerjinin anahtarına dönüşür.",
-    "Magnezyum yoksa vücutta enerji bulunsa bile kilitli kas asla gevşemez.",
-    "Hücredeki o özel kilit açılmadan baldırın rahat bir nefes alamaz.",
-    "Kas gevşemek için zaman ister pes etmeyip depoyu doldurun."
+    "Gece modu uykunu kurtarmıyor.",
+    "Sarı ekran kasların gece mesaisini bozup tatlı krizi tetikler.",
+    "Mavi ışık kasları uyandırınca beyne sahte açlık sinyali gönderir.",
+    "Gece ikiye doğru aniden gelen o tatlı aşermesi bundandır.",
+    "En iyi uyku filtresi ekranı tamamen kapatmaktır."
   ],
-  "subject": "magnezyum kramp",
-  "sendTo": "gece krampıyla uyanıp tek hapla mucize bekleyen arkadaşına",
-  "soru": "Gece bacağına kramp girince sen ne yapıyorsun: Tuz mu yutarsın magnezyum mu?",
-  "theme": "#e8a0a8",
+  "subject": "mavi ışık",
+  "sendTo": "gece ikiye kadar ekrana bakıp uyuyamayan arkadaşına",
+  "soru": "Gece modun sürekli açık mı yoksa uyumadan hemen önce mi açıyorsun?",
+  "theme": "#8fa8c8",
   "brand": {
     "handle": "@cilt.kodu",
     "signoff": "güzellik, pazarlama değil",
@@ -88,35 +87,35 @@
     "muted": "#b9a49c"
   },
   "language": "tr",
-  "motion": "camera",
+  "motion": "ripple",
   "format": "kinetik",
   "footage": true,
   "beats": [
     {
-      "text": "Magnezyum içip gece krampla uyandın.",
+      "text": "Gece modu uykunu kurtarmıyor.",
       "start": 0.35,
-      "dur": 2.384
+      "dur": 2.152
     },
     {
-      "text": "Kası sıkan cırt cırtı çözmek için magnezyum enerjinin anahtarına dönüşür.",
-      "start": 2.734,
-      "dur": 4.834
+      "text": "Sarı ekran kasların gece mesaisini bozup tatlı krizi tetikler.",
+      "start": 2.502,
+      "dur": 4.602
     },
     {
-      "text": "Magnezyum yoksa vücutta enerji bulunsa bile kilitli kas asla gevşemez.",
-      "start": 7.568,
-      "dur": 4.636
+      "text": "Mavi ışık kasları uyandırınca beyne sahte açlık sinyali gönderir.",
+      "start": 7.104,
+      "dur": 4.824
     },
     {
-      "text": "Hücredeki o özel kilit açılmadan baldırın rahat bir nefes alamaz.",
-      "start": 12.204,
-      "dur": 4.304
+      "text": "Gece ikiye doğru aniden gelen o tatlı aşermesi bundandır.",
+      "start": 11.928,
+      "dur": 4.23
     },
     {
-      "text": "Kas gevşemek için zaman ister pes etmeyip depoyu doldurun.",
-      "start": 16.508,
-      "dur": 4.941
+      "text": "En iyi uyku filtresi ekranı tamamen kapatmaktır.",
+      "start": 16.158,
+      "dur": 4.662
     }
   ],
-  "thumbOffset": 1792
+  "thumbOffset": 1676
 }
