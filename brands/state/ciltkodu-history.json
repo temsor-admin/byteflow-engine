@@ -1145,28 +1145,28 @@
     "insightsAt": "2026-09-18T18:06:27.631Z"
   },
   {
-    "title": "Diş Sıkma: Gece Savaşının Sessiz Tetikçisi",
-    "subject": "diş sıkma",
-    "twist": "itiraf",
-    "pillar": "spor-kazalari",
-    "layout": "cycle",
+    "title": "Nemlendirici Sürüyorum Yine Kuru!",
+    "subject": "buharlaşan nem",
+    "twist": "para",
+    "pillar": "nemlendirme",
+    "layout": "vertical-stack",
     "kinds": "diagram",
     "motion": "ripple",
     "theme": "#8fa8c8",
     "source": "gemini",
     "footage": [
-      "pexels:sleep mask on nightstand close up",
-      "pexels:herbal tea cup steam close up",
-      "pexels:running shoes on plain background",
-      "pexels:foam roller on floor close up"
+      "pexels:hands applying cream close up",
+      "pexels:makeup brushes flat lay",
+      "pexels:water droplets on glass",
+      "pexels:sunlight through curtain"
     ],
     "voice": 5,
-    "voiceName": "Aoede",
+    "voiceName": "Puck",
     "muzik": "byteflow-ambient.mp3",
     "sir": null,
     "sirUygulandi": null,
     "sirAtlandi": "dongu-null",
     "date": "2026-09-18",
-    "durSec": 19.7
+    "durSec": 19
   }
 ]

@@ -1,59 +1,78 @@
 {
-  "hook": "Annenin 'doymadın sen' ısrarı kalori hesabı değil — peki ne?",
-  "title": "Annenin 'Ye Yavrum' Kodunun Altındaki Mekanizma",
+  "hook": "Kavanoza o serveti yatıran arkadaşına gelsin!",
+  "title": "Nemlendirici Sürüyorum Yine Kuru!",
   "scenes": [
     {
       "layout": "vertical-stack",
-      "kind": "versus",
-      "left": "Doydum Sanan Sen",
-      "right": "Tabağı Dolduran Anne",
-      "rows": [
+      "kind": "diagram",
+      "nodes": [
         {
-          "label": "TABAKTAKİ",
-          "left": "Sadece kalori",
-          "right": "Bakım ve sevgisi",
-          "winner": "right"
+          "id": "disetkiler",
+          "label": "DIŞ ETKİLER"
         },
         {
-          "label": "REDDETMEK",
-          "left": "Kelimede doymak",
-          "right": "Emeği reddetmek",
-          "winner": "right"
+          "id": "bariyer",
+          "label": "CİLT BARİYERİ"
         },
         {
-          "label": "İKİNCİ PORSİYON",
-          "left": "Fazla yemek",
-          "right": "Güvende hissetmek",
-          "winner": "right"
+          "id": "nemkilidi",
+          "label": "NEM KİLİDİ"
+        },
+        {
+          "id": "ciltuyu",
+          "label": "CİLT SUYU"
+        }
+      ],
+      "steps": [
+        {
+          "from": "disetkiler",
+          "to": "bariyer",
+          "packet": "HASAR",
+          "status": "bariyerin gidince aktiflerin neye yarar?"
+        },
+        {
+          "from": "bariyer",
+          "to": "ciltuyu",
+          "packet": "BUHAR",
+          "status": "cilt suyu içeriden dışarıya uçar, paran"
+        },
+        {
+          "from": "nemkilidi",
+          "to": "bariyer",
+          "packet": "ÖRTÜ",
+          "status": "oklüzif katman suyu hapset, parayı hak"
         }
       ]
     }
   ],
-  "caption": "Annenin 'doymadın sen' demesi aslında kalori hesabı değil.\n\nAnnenin 'ye yavrum' cümlesinin arkasındaki psikolojik mekanizma:\n\n1. Bakım ve Aidiyet — Anne için yemek yedirmek, sevgisini ve varlığını somut olarak göstermenin en temel yoludur.\n2. Emeğin Kodlanması — Sen 'doydum' dediğinde, beyin bunu sadece doygunluk değil, sunduğu emeğin ve ilginin reddi olarak algılar.\n3. Güvenlik ve Kontrol — Tabağa eklenen o ikinci porsiyon, senin hâlâ onun koruması altında olduğunu hissettiren sessiz bir onay mekanizmasıdır.\n\nKonu hiçbir zaman yemek olmadı, hep gösterilen ilgi ve bağdı. Ama yine de o dördüncü köfte tabağa konacak.\n\n📌 Kaydet — pazar kahvaltısında lazım olacak.\n🔁 Bunu annesinin tabağını reddedince evde kriz çıkan arkadaşına gönder.\nSen 'doydum' deyince tabağına ikinci porsiyon ekleniyor mu?\nYazan: Ece.\nTakip et: @kizlar.kodu — her şeyin bir sebebi var.",
+  "caption": "O pahalı nemlendiricilere döktüğün paranın sırrı ortaya çıktı! Nemlendirici sürdüğün halde cildin neden hep kuru kalıyor, adım adım öğrenelim:1. Dış Etkiler ve Cilt Bariyeri: Soğuk, rüzgar, yanlış ürünler gibi dış etkiler cilt bariyerini zayıflatır. Bu bariyer, cildimizin en dış katmanı olup nemi içeride tutan ana savunma hattıdır. Bariyer bozulduğunda, en pahalı nem çekiciler bile tek başına işe yaramaz çünkü suyu tutacak bir yapı kalmaz.2. Cilt Suyu ve Buharlaşma: Hasarlı bariyer, cildin içindeki suyu dışarıya kaçıran açık bir kapı gibidir. İçtiğin sular bile bu kaybı durduramaz çünkü asıl problem içeriden dışarıya kaçan nemdir. Cildin nemi tutamadığında, sürdüğün ürünlerin etkisi de uçup gider.3. Nem Kilidi ve Oklüzifler: İşte bu noktada oklüzifler devreye girer! Oklüzif içerikler (vazelin, silikonlar, mineral yağ gibi), cilt yüzeyinde koruyucu bir katman oluşturarak suyun buharlaşmasını engeller. Nem çekiciler suyu cilde çekerken, oklüzifler bu suyu hapseder ve nemin kilitli kalmasını sağlar. Bu katman olmadan cildin nemini korumak çok zordur. Aslında nemlendiricilerdeki aktif içeriklerden çok, formülün oklüzif etkisi ve bariyerini güçlendirme yeteneği önemli. Sadece nem çekiciye değil, nemi gerçekten kilitleyen ürünlere yatırım yap. Su içince cildin cam gibi olmuyor, oklüzif sürmeyince paran da buharlaşıyor.\n\n📌 Kaydet — bir dahaki nemlendirme krizinde lazım olacak.\n\n🔁 Bunu pahalı nemlendiricilere servet döken arkadaşına gönder. Senin kavanozun nemi hapsediyor mu, kaçırıyor mu? Yazan: Derin.\nTakip et: @cilt.kodu — güzellik, pazarlama değil.",
   "hashtags": [
-    "#merak",
-    "#günlükhayat",
-    "#ailedinamiği",
-    "#annekız",
-    "#yeyavrum",
-    "#psikoloji"
+    "#ciltbakimi",
+    "#nemlendirici",
+    "#ciltbariyeri",
+    "#kurucilt",
+    "#nemlendiricikrem",
+    "#skincare",
+    "#moisture",
+    "#buharlasan",
+    "#okluzif"
   ],
-  "takeaway": "Tabağı reddetmek yemeği değil, annenin sevgisini reddetmek gibidir.",
+  "takeaway": "O pahalı kavanoz sadece su buharının kaçışını izliyor.",
   "footage_queries": [
-    "cozy home interior soft light",
-    "coffee cup steam morning light"
+    "hands applying cream close up",
+    "water droplets on glass"
   ],
   "narration": [
-    "Annenin 'ye yavrum' ısrarı neden bitmez?",
-    "Sen tabağı kalori görürsün, o ise sevgisini sunma biçimi görür.",
-    "Yemeği reddettiğinde beyin bunu doğrudan onun emeğini reddetmek gibi kodlar.",
-    "Tabağa eklenen ikinci porsiyon aslında bakım ve kontrol duygusunu tazeler.",
-    "Tabağı reddetmek yemeği değil, annenin sevgisini reddetmek gibi algılanır."
+    "Kavanoza o serveti yatıran arkadaşına gelsin!",
+    "Dış etkiler bariyeri bozunca nem çekiciler işe yaramaz.",
+    "Bariyerden uçup giden suyla paran da buharlaşır.",
+    "Oklüzif katman suyu cildinde hapsedip nemi korur.",
+    "O pahalı kavanoz sadece su buharının kaçışını izliyor."
   ],
-  "subject": "ye yavrum",
-  "sendTo": "annesinin tabağını reddedince evde kriz çıkan arkadaşına",
-  "soru": "Sen 'doydum' deyince tabağına ikinci porsiyon ekleniyor mu?",
-  "theme": "#7de2d1",
+  "subject": "buharlaşan nem",
+  "sendTo": "pahalı nemlendiricilere servet döken arkadaşına",
+  "soru": "Senin kavanozun nemi hapsediyor mu, kaçırıyor mu?",
+  "theme": "#8fa8c8",
   "brand": {
     "handle": "@cilt.kodu",
     "signoff": "güzellik, pazarlama değil",
@@ -77,29 +96,29 @@
   "footage": true,
   "beats": [
     {
-      "text": "Annenin 'ye yavrum' ısrarı neden bitmez?",
+      "text": "Kavanoza o serveti yatıran arkadaşına gelsin!",
       "start": 0.35,
-      "dur": 2.479
+      "dur": 3.143
     },
     {
-      "text": "Sen tabağı kalori görürsün, o ise sevgisini sunma biçimi görür.",
-      "start": 2.829,
-      "dur": 3.904
+      "text": "Dış etkiler bariyeri bozunca nem çekiciler işe yaramaz.",
+      "start": 3.493,
+      "dur": 3.841
     },
     {
-      "text": "Yemeği reddettiğinde beyin bunu doğrudan onun emeğini reddetmek gibi kodlar.",
-      "start": 6.732,
-      "dur": 4.709
+      "text": "Bariyerden uçup giden suyla paran da buharlaşır.",
+      "start": 7.334,
+      "dur": 3.353
     },
     {
-      "text": "Tabağa eklenen ikinci porsiyon aslında bakım ve kontrol duygusunu tazeler.",
-      "start": 11.442,
-      "dur": 4.585
+      "text": "Oklüzif katman suyu cildinde hapsedip nemi korur.",
+      "start": 10.687,
+      "dur": 3.422
     },
     {
-      "text": "Tabağı reddetmek yemeği değil, annenin sevgisini reddetmek gibi algılanır.",
-      "start": 16.027,
-      "dur": 5.685
+      "text": "O pahalı kavanoz sadece su buharının kaçışını izliyor.",
+      "start": 14.109,
+      "dur": 4.872
     }
   ]
 }

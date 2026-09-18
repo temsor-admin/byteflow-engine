@@ -1,82 +1,77 @@
 {
-  "hook": "Sabah çenen kilitliyse, geceleri kimseye söylemediğin o sırrın!",
-  "title": "Diş Sıkma: Gece Savaşının Sessiz Tetikçisi",
+  "hook": "Kavanoza o serveti yatıran arkadaşına gelsin!",
+  "title": "Nemlendirici Sürüyorum Yine Kuru!",
   "scenes": [
     {
-      "layout": "cycle",
+      "layout": "vertical-stack",
       "kind": "diagram",
       "nodes": [
         {
-          "id": "stres",
-          "label": "STRES"
+          "id": "disetkiler",
+          "label": "DIŞ ETKİLER"
         },
         {
-          "id": "kortizol",
-          "label": "KORTİZOL"
+          "id": "bariyer",
+          "label": "CİLT BARİYERİ"
         },
         {
-          "id": "masseter",
-          "label": "MASSETER KAS"
+          "id": "nemkilidi",
+          "label": "NEM KİLİDİ"
         },
         {
-          "id": "dissikma",
-          "label": "DİŞ SIKMA"
-        },
-        {
-          "id": "ceneagrisi",
-          "label": "ÇENE AĞRISI"
+          "id": "ciltuyu",
+          "label": "CİLT SUYU"
         }
       ],
       "steps": [
         {
-          "from": "stres",
-          "to": "kortizol",
-          "packet": "TETİK",
-          "status": "stres bastı, kortizol partiye çağrıldı",
-          "color": "warn"
+          "from": "disetkiler",
+          "to": "bariyer",
+          "packet": "HASAR",
+          "status": "bariyerin gidince aktiflerin neye yarar?"
         },
         {
-          "from": "kortizol",
-          "to": "masseter",
-          "packet": "SİNYAL",
-          "status": "kortizol masseteri 'hazır ol' diye",
-          "color": "accent"
+          "from": "bariyer",
+          "to": "ciltuyu",
+          "packet": "BUHAR",
+          "status": "cilt suyu içeriden dışarıya uçar, paran"
         },
         {
-          "from": "masseter",
-          "to": "dissikma",
-          "packet": "GERİLİ",
-          "status": "masseter tüm gece izometrik kasıldı",
-          "color": "accent"
+          "from": "nemkilidi",
+          "to": "bariyer",
+          "packet": "ÖRTÜ",
+          "status": "oklüzif katman suyu hapset, parayı hak"
         }
       ]
     }
   ],
-  "caption": "Sabah çenen kilitli mi? Geceleri kimseye söylemediğin o sırrın aslında bir döngü. Diş sıkma döngüsü adım adım nasıl çalışıyor ve masseter kası neden yoruluyor:1. Stres: Gün içinde yaşadığımız her şey, biriken gerilim olarak kaslarımıza yansır. Geceleri de rahat bırakmaz.2. Kortizol: Stres tepkisi olarak vücut kortizol salgılar. Bu “savaş ya da kaç” hormonu, kasları sürekli bir gerilim halinde tutmaya programlar.3. Masseter Kası: Çenemizin en güçlü kaslarından olan masseter, kortizolün etkisiyle gece boyunca istemsizce kasılır. Hatta sen uyurken bile “izometrik” çalışır; yani hareket etmeden gergin kalır.4. Diş Sıkma: Masseter kasının bu sürekli gerginliği, dişlerin istemsizce sıkılmasına ve gıcırdatılmasına yol açar. Bu, çeneye inanılmaz bir yük bindirir.5. Çene Ağrısı: Gece boyu aşırı çalışan masseter kası ve çene eklemleri yorulur, sabahları ise kilitlenme, ağrı ve baş ağrısı gibi şikayetlerle uyanırız. Bu ağrı, yeni bir stres kaynağı olup döngüyü sürdürür. Diş hekimlerinin önerdiği plaklar semptomları hafifletse de, asıl tetikleyici olan stresi yönetmek döngüyü kırmak için çok önemli. Yani sabah ağrıyan çenen aslında gece yaşadığın o gizli savaşın iziymiş. Sen de rüyanda spor yapmış gibi uyanıyorsun!\n\n📌 Kaydet — sabah çenen kilitlendiğinde mekanizmayı hatırlamak için.\n\n🔁 Bunu geceleri dişini sıkıp sabah ağrıyan çenesini gizleyen arkadaşına gönder. Senin çenen gece mi kilitleniyor, gündüz mü? Yazan: Derin.\nTakip et: @cilt.kodu — güzellik, pazarlama değil.",
+  "caption": "O pahalı nemlendiricilere döktüğün paranın sırrı ortaya çıktı! Nemlendirici sürdüğün halde cildin neden hep kuru kalıyor, adım adım öğrenelim:1. Dış Etkiler ve Cilt Bariyeri: Soğuk, rüzgar, yanlış ürünler gibi dış etkiler cilt bariyerini zayıflatır. Bu bariyer, cildimizin en dış katmanı olup nemi içeride tutan ana savunma hattıdır. Bariyer bozulduğunda, en pahalı nem çekiciler bile tek başına işe yaramaz çünkü suyu tutacak bir yapı kalmaz.2. Cilt Suyu ve Buharlaşma: Hasarlı bariyer, cildin içindeki suyu dışarıya kaçıran açık bir kapı gibidir. İçtiğin sular bile bu kaybı durduramaz çünkü asıl problem içeriden dışarıya kaçan nemdir. Cildin nemi tutamadığında, sürdüğün ürünlerin etkisi de uçup gider.3. Nem Kilidi ve Oklüzifler: İşte bu noktada oklüzifler devreye girer! Oklüzif içerikler (vazelin, silikonlar, mineral yağ gibi), cilt yüzeyinde koruyucu bir katman oluşturarak suyun buharlaşmasını engeller. Nem çekiciler suyu cilde çekerken, oklüzifler bu suyu hapseder ve nemin kilitli kalmasını sağlar. Bu katman olmadan cildin nemini korumak çok zordur. Aslında nemlendiricilerdeki aktif içeriklerden çok, formülün oklüzif etkisi ve bariyerini güçlendirme yeteneği önemli. Sadece nem çekiciye değil, nemi gerçekten kilitleyen ürünlere yatırım yap. Su içince cildin cam gibi olmuyor, oklüzif sürmeyince paran da buharlaşıyor.\n\n📌 Kaydet — bir dahaki nemlendirme krizinde lazım olacak.\n\n🔁 Bunu pahalı nemlendiricilere servet döken arkadaşına gönder. Senin kavanozun nemi hapsediyor mu, kaçırıyor mu? Yazan: Derin.\nTakip et: @cilt.kodu — güzellik, pazarlama değil.",
   "hashtags": [
     "#ciltbakimi",
-    "#güzellik",
-    "#dişsıkma",
-    "#çeneağrısı",
-    "#stresyönetimi",
-    "#kadınsağlığı",
-    "#masseter"
+    "#nemlendirici",
+    "#ciltbariyeri",
+    "#kurucilt",
+    "#nemlendiricikrem",
+    "#skincare",
+    "#moisture",
+    "#buharlasan",
+    "#okluzif"
   ],
-  "takeaway": "Ağrıyan çenen, gece yaşadığın o gizli savaşın yorgunluk madalyasıymış.",
+  "takeaway": "O pahalı kavanoz sadece su buharının kaçışını izliyor.",
   "footage_queries": [
-    "sleep mask on nightstand close up",
-    "herbal tea cup steam close up"
+    "hands applying cream close up",
+    "water droplets on glass"
   ],
   "narration": [
-    "Sabah çenen kilitliyse, yalnız değilsin!",
-    "Stres bastığında vücut kortizol hormonu salgılar.",
-    "Bu hormon, masseter kasına 'hazır ol' emri verir.",
-    "Masseter, tüm gece izometrik çalışıp gerilir.",
-    "Ağrıyan çenen, gece yaşadığın gizli savaşın madalyasıymış."
+    "Kavanoza o serveti yatıran arkadaşına gelsin!",
+    "Dış etkiler bariyeri bozunca nem çekiciler işe yaramaz.",
+    "Bariyerden uçup giden suyla paran da buharlaşır.",
+    "Oklüzif katman suyu cildinde hapsedip nemi korur.",
+    "O pahalı kavanoz sadece su buharının kaçışını izliyor."
   ],
-  "subject": "diş sıkma",
-  "sendTo": "geceleri dişini sıkıp sabah ağrıyan çenesini gizleyen arkadaşına",
-  "soru": "Senin çenen gece mi kilitleniyor, gündüz mü?",
+  "subject": "buharlaşan nem",
+  "sendTo": "pahalı nemlendiricilere servet döken arkadaşına",
+  "soru": "Senin kavanozun nemi hapsediyor mu, kaçırıyor mu?",
   "theme": "#8fa8c8",
   "brand": {
     "handle": "@cilt.kodu",
@@ -101,30 +96,30 @@
   "footage": true,
   "beats": [
     {
-      "text": "Sabah çenen kilitliyse, yalnız değilsin!",
+      "text": "Kavanoza o serveti yatıran arkadaşına gelsin!",
       "start": 0.35,
-      "dur": 3.036
+      "dur": 3.143
     },
     {
-      "text": "Stres bastığında vücut kortizol hormonu salgılar.",
-      "start": 3.386,
-      "dur": 3.719
+      "text": "Dış etkiler bariyeri bozunca nem çekiciler işe yaramaz.",
+      "start": 3.493,
+      "dur": 3.841
     },
     {
-      "text": "Bu hormon, masseter kasına 'hazır ol' emri verir.",
-      "start": 7.105,
-      "dur": 3.719
+      "text": "Bariyerden uçup giden suyla paran da buharlaşır.",
+      "start": 7.334,
+      "dur": 3.353
     },
     {
-      "text": "Masseter, tüm gece izometrik çalışıp gerilir.",
-      "start": 10.824,
-      "dur": 3.415
+      "text": "Oklüzif katman suyu cildinde hapsedip nemi korur.",
+      "start": 10.687,
+      "dur": 3.422
     },
     {
-      "text": "Ağrıyan çenen, gece yaşadığın gizli savaşın madalyasıymış.",
-      "start": 14.239,
-      "dur": 5.502
+      "text": "O pahalı kavanoz sadece su buharının kaçışını izliyor.",
+      "start": 14.109,
+      "dur": 4.872
     }
   ],
-  "thumbOffset": 2030
+  "thumbOffset": 2172
 }
