@@ -1145,9 +1145,9 @@
     "insightsAt": "2026-09-17T18:50:05.028Z"
   },
   {
-    "title": "Mavi Işık ve Gece Modu Yalanı",
-    "subject": "mavi ışık",
-    "twist": "yaz-ve-ter",
+    "title": "Büyüme Hormonu ve Gece Netflix",
+    "subject": "büyüme uykusu",
+    "twist": "sosyal-medya",
     "pillar": "uyku-iyilesme",
     "layout": "vertical-stack",
     "kinds": "diagram",
@@ -1155,18 +1155,18 @@
     "theme": "#8fa8c8",
     "source": "gemini",
     "footage": [
+      "pexels:kettlebell on gym floor close up",
       "pexels:sleep mask on nightstand close up",
-      "pexels:herbal tea cup steam close up",
       "pexels:running shoes on plain background",
       "pexels:foam roller on floor close up"
     ],
     "voice": 5,
-    "voiceName": "Kore",
+    "voiceName": "Puck",
     "muzik": "byteflow-ambient.mp3",
-    "sir": "Mavi ışık sadece melatonini baskılamakla kalmaz, kas dokusundaki çevre saat genlerini de uyararak antrenman sonrası gece",
-    "sirUygulandi": "kismi",
-    "sirAtlandi": null,
-    "date": "2026-09-17",
-    "durSec": 20.7
+    "sir": null,
+    "sirUygulandi": null,
+    "sirAtlandi": "dongu-null",
+    "date": "2026-09-18",
+    "durSec": 21.4
   }
 ]
