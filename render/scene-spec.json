@@ -1,124 +1,118 @@
 {
-  "hook": "Kavanoza o serveti yatıran arkadaşına gelsin!",
-  "title": "Nemlendirici Sürüyorum Yine Kuru!",
+  "hook": "O bakışı yanlış yerinden mi kestin?",
+  "title": "Bakışların Gizli Terzisi",
   "scenes": [
     {
       "layout": "vertical-stack",
-      "kind": "diagram",
-      "nodes": [
+      "kind": "versus",
+      "left": "İLGI BAKIŞI",
+      "right": "TEHDİT BAKIŞI",
+      "rows": [
         {
-          "id": "disetkiler",
-          "label": "DIŞ ETKİLER"
+          "label": "SÜRE",
+          "left": "Uzun, rahat, yumuşak",
+          "right": "Uzun, sert, delici",
+          "winner": "tie"
         },
         {
-          "id": "bariyer",
-          "label": "CİLT BARİYERİ"
+          "label": "KAŞLAR",
+          "left": "Hafif kalkık/doğal",
+          "right": "Çatık/gergin",
+          "winner": "left"
         },
         {
-          "id": "nemkilidi",
-          "label": "NEM KİLİDİ"
+          "label": "MESAFE",
+          "left": "Kişisel alan saygılı",
+          "right": "Aşırı yakın, invaziv",
+          "winner": "left"
         },
         {
-          "id": "ciltuyu",
-          "label": "CİLT SUYU"
-        }
-      ],
-      "steps": [
-        {
-          "from": "disetkiler",
-          "to": "bariyer",
-          "packet": "HASAR",
-          "status": "bariyerin gidince aktiflerin neye yarar?"
-        },
-        {
-          "from": "bariyer",
-          "to": "ciltuyu",
-          "packet": "BUHAR",
-          "status": "cilt suyu içeriden dışarıya uçar, paran"
-        },
-        {
-          "from": "nemkilidi",
-          "to": "bariyer",
-          "packet": "ÖRTÜ",
-          "status": "oklüzif katman suyu hapset, parayı hak"
+          "label": "AMAÇ",
+          "left": "Bağlantı, merak",
+          "right": "Güç, üstünlük",
+          "winner": "left"
         }
       ]
     }
   ],
-  "caption": "O pahalı nemlendiricilere döktüğün paranın sırrı ortaya çıktı! Nemlendirici sürdüğün halde cildin neden hep kuru kalıyor, adım adım öğrenelim:1. Dış Etkiler ve Cilt Bariyeri: Soğuk, rüzgar, yanlış ürünler gibi dış etkiler cilt bariyerini zayıflatır. Bu bariyer, cildimizin en dış katmanı olup nemi içeride tutan ana savunma hattıdır. Bariyer bozulduğunda, en pahalı nem çekiciler bile tek başına işe yaramaz çünkü suyu tutacak bir yapı kalmaz.2. Cilt Suyu ve Buharlaşma: Hasarlı bariyer, cildin içindeki suyu dışarıya kaçıran açık bir kapı gibidir. İçtiğin sular bile bu kaybı durduramaz çünkü asıl problem içeriden dışarıya kaçan nemdir. Cildin nemi tutamadığında, sürdüğün ürünlerin etkisi de uçup gider.3. Nem Kilidi ve Oklüzifler: İşte bu noktada oklüzifler devreye girer! Oklüzif içerikler (vazelin, silikonlar, mineral yağ gibi), cilt yüzeyinde koruyucu bir katman oluşturarak suyun buharlaşmasını engeller. Nem çekiciler suyu cilde çekerken, oklüzifler bu suyu hapseder ve nemin kilitli kalmasını sağlar. Bu katman olmadan cildin nemini korumak çok zordur. Aslında nemlendiricilerdeki aktif içeriklerden çok, formülün oklüzif etkisi ve bariyerini güçlendirme yeteneği önemli. Sadece nem çekiciye değil, nemi gerçekten kilitleyen ürünlere yatırım yap. Su içince cildin cam gibi olmuyor, oklüzif sürmeyince paran da buharlaşıyor.\n\n📌 Kaydet — bir dahaki nemlendirme krizinde lazım olacak.\n\n🔁 Bunu pahalı nemlendiricilere servet döken arkadaşına gönder. Senin kavanozun nemi hapsediyor mu, kaçırıyor mu? Yazan: Derin.\nTakip et: @cilt.kodu — güzellik, pazarlama değil.",
+  "caption": "O bakışı yanlış yerinden mi kestin? Her uzun bakış ilgi demek değildir, bazen sadece terziye gitmeyen bir pantolon gibi yanlış anlaşılır. Uzun bakışın ilgi mi tehdit mi olduğunu anlamanın terzilik sırları:1. SÜRE: Bakışın uzun olması tek başına bir anlam taşımaz. Rahat ve yumuşak bir uzun bakış ilgi belirtirken, sert ve delici bir uzun bakış tehditkar olabilir. Tıpkı bir kumaşı sadece boyuna göre kesmek gibi; eni, dokusu da önemli.2. KAŞLAR: Kaşların konumu bakışın kalıbını tamamen değiştirir. Hafif kalkık veya doğal duran kaşlar merak ve ilgiyi gösterirken, çatık veya gergin kaşlar genellikle öfke veya meydan okuma sinyalidir. Kaşlar, terzilikteki yaka detayı gibidir; modelin havasını belirler.3. MESAFE: Kişiler arası fiziksel mesafe, bakışın anlamını etkileyen gizli bir ölçüdür. Kişisel alana saygılı bir yakınlıktaki bakış ilgi gösterirken, aşırı yakın ve invaziv bir mesafe tehdit algısını güçlendirir. Pantolon paçasını keserken mesafeyi doğru ayarlamazsan yamuk kalır ya, işte öyle.4. AMAÇ: Bakışın altında yatan asıl niyet, flört belirsizliğinin anahtarıdır. Bağlantı kurma ve merak etme niyeti ilgiye işaret ederken, güç gösterisi veya üstünlük kurma amacı tehditkardır. Terziye 'bollaştırırız' diye diye alıp kenara attığın kıyafetler gibi, niyetini doğru anlamazsan o bakış hep kenarda kalır. Unutma, her bakışın bir bağlamı var. Sadece süresiyle yorumlamak, dar gelen pantolonu terziye götürmeden giymeye çalışmak gibidir. Bakışları doğru kesip biçmeyi öğrenmezsen, o çok beğendiğin 'ilgi' bakışı terzinin elinden çıkmamış pantolon gibi içinde kalır.\n\n📌 Kaydet — bir dahaki flört belirsizliğinde lazım olacak.\n\n🔁 Bunu her bakışı kendine yoran arkadaşına gönder. Sen hangi bakışı yanlış kestin, itiraf et? Yazan: Ece.\nTakip et: @kizlar.kodu — her şeyin bir sebebi var.",
   "hashtags": [
-    "#ciltbakimi",
-    "#nemlendirici",
-    "#ciltbariyeri",
-    "#kurucilt",
-    "#nemlendiricikrem",
-    "#skincare",
-    "#moisture",
-    "#buharlasan",
-    "#okluzif"
+    "#merak",
+    "#kadınlar",
+    "#nedenoluyor",
+    "#gözteması",
+    "#bedendili",
+    "#ilişkiler",
+    "#flört"
   ],
-  "takeaway": "O pahalı kavanoz sadece su buharının kaçışını izliyor.",
+  "takeaway": "Bakışları doğru kesemezsen, o kıyafet hep içinde kalır.",
   "footage_queries": [
-    "hands applying cream close up",
-    "water droplets on glass"
+    "coffee cup steam morning light",
+    "empty bed pillow morning light"
   ],
   "narration": [
-    "Kavanoza o serveti yatıran arkadaşına gelsin!",
-    "Dış etkiler bariyeri bozunca nem çekiciler işe yaramaz.",
-    "Bariyerden uçup giden suyla paran da buharlaşır.",
-    "Oklüzif katman suyu cildinde hapsedip nemi korur.",
-    "O pahalı kavanoz sadece su buharının kaçışını izliyor."
+    "O bakışı yanlış yerinden mi kestin?",
+    "Bakışın süresi tek başına yeterli değil, terzinin metresi gibi.",
+    "Kaşlar kalkık mı, çatık mı? Kalıbı tamamen değiştirir.",
+    "Mesafe de önemli; daraltınca paçası yamuk kalır.",
+    "Niyetini terziden çok sen anlarsın, tadilat gerekiyorsa.",
+    "Bakışları doğru kesemezsen, o kıyafet hep içinde kalır."
   ],
-  "subject": "buharlaşan nem",
-  "sendTo": "pahalı nemlendiricilere servet döken arkadaşına",
-  "soru": "Senin kavanozun nemi hapsediyor mu, kaçırıyor mu?",
-  "theme": "#8fa8c8",
+  "subject": "göz teması",
+  "sendTo": "Her bakışı kendine yoran arkadaşına gönder.",
+  "soru": "Sen hangi bakışı yanlış kestin, itiraf et?",
+  "theme": "#7de2d1",
   "brand": {
-    "handle": "@cilt.kodu",
-    "signoff": "güzellik, pazarlama değil",
+    "handle": "@kizlar.kodu",
+    "signoff": "her şeyin bir sebebi var",
     "shareCta": "↗  Bunu ihtiyacı olan birine gönder",
-    "saveCue": "KAYDET · sonraki ürün krizinde lazım",
+    "saveCue": "KAYDET · bir dahaki siparişte lazım",
     "tipografi": {
-      "puntoCarpani": 1,
-      "harfAralik": -1.4
+      "puntoCarpani": 1.06,
+      "harfAralik": -2.1
     }
   },
   "palette": {
-    "bg": "#17110f",
-    "card": "#241b18",
-    "stroke": "#3c2f2a",
-    "text": "#f6ece7",
-    "muted": "#b9a49c"
+    "bg": "#0e0f1a",
+    "card": "#171a2c",
+    "stroke": "#2a2f4a",
+    "text": "#f2f0ff",
+    "muted": "#a9a6c9"
   },
   "language": "tr",
-  "motion": "ripple",
+  "motion": "orbit",
   "format": "kinetik",
   "footage": true,
   "beats": [
     {
-      "text": "Kavanoza o serveti yatıran arkadaşına gelsin!",
+      "text": "O bakışı yanlış yerinden mi kestin?",
       "start": 0.35,
-      "dur": 3.143
+      "dur": 2.251
     },
     {
-      "text": "Dış etkiler bariyeri bozunca nem çekiciler işe yaramaz.",
-      "start": 3.493,
-      "dur": 3.841
+      "text": "Bakışın süresi tek başına yeterli değil, terzinin metresi gibi.",
+      "start": 2.601,
+      "dur": 4.052
     },
     {
-      "text": "Bariyerden uçup giden suyla paran da buharlaşır.",
-      "start": 7.334,
-      "dur": 3.353
+      "text": "Kaşlar kalkık mı, çatık mı? Kalıbı tamamen değiştirir.",
+      "start": 6.654,
+      "dur": 3.473
     },
     {
-      "text": "Oklüzif katman suyu cildinde hapsedip nemi korur.",
-      "start": 10.687,
-      "dur": 3.422
+      "text": "Mesafe de önemli; daraltınca paçası yamuk kalır.",
+      "start": 10.127,
+      "dur": 3.087
     },
     {
-      "text": "O pahalı kavanoz sadece su buharının kaçışını izliyor.",
-      "start": 14.109,
-      "dur": 4.872
+      "text": "Niyetini terziden çok sen anlarsın, tadilat gerekiyorsa.",
+      "start": 13.214,
+      "dur": 3.602
+    },
+    {
+      "text": "Bakışları doğru kesemezsen, o kıyafet hep içinde kalır.",
+      "start": 16.816,
+      "dur": 4.638
     }
   ]
 }

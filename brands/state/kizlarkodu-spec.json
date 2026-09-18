@@ -1,58 +1,66 @@
 {
-  "hook": "Annenin 'doymadın sen' ısrarı kalori hesabı değil — peki ne?",
-  "title": "Annenin 'Ye Yavrum' Kodunun Altındaki Mekanizma",
+  "hook": "O bakışı yanlış yerinden mi kestin?",
+  "title": "Bakışların Gizli Terzisi",
   "scenes": [
     {
       "layout": "vertical-stack",
       "kind": "versus",
-      "left": "Doydum Sanan Sen",
-      "right": "Tabağı Dolduran Anne",
+      "left": "İLGI BAKIŞI",
+      "right": "TEHDİT BAKIŞI",
       "rows": [
         {
-          "label": "TABAKTAKİ",
-          "left": "Sadece kalori",
-          "right": "Bakım ve sevgisi",
-          "winner": "right"
+          "label": "SÜRE",
+          "left": "Uzun, rahat, yumuşak",
+          "right": "Uzun, sert, delici",
+          "winner": "tie"
         },
         {
-          "label": "REDDETMEK",
-          "left": "Kelimede doymak",
-          "right": "Emeği reddetmek",
-          "winner": "right"
+          "label": "KAŞLAR",
+          "left": "Hafif kalkık/doğal",
+          "right": "Çatık/gergin",
+          "winner": "left"
         },
         {
-          "label": "İKİNCİ PORSİYON",
-          "left": "Fazla yemek",
-          "right": "Güvende hissetmek",
-          "winner": "right"
+          "label": "MESAFE",
+          "left": "Kişisel alan saygılı",
+          "right": "Aşırı yakın, invaziv",
+          "winner": "left"
+        },
+        {
+          "label": "AMAÇ",
+          "left": "Bağlantı, merak",
+          "right": "Güç, üstünlük",
+          "winner": "left"
         }
       ]
     }
   ],
-  "caption": "Annenin 'doymadın sen' demesi aslında kalori hesabı değil.\n\nAnnenin 'ye yavrum' cümlesinin arkasındaki psikolojik mekanizma:\n\n1. Bakım ve Aidiyet — Anne için yemek yedirmek, sevgisini ve varlığını somut olarak göstermenin en temel yoludur.\n2. Emeğin Kodlanması — Sen 'doydum' dediğinde, beyin bunu sadece doygunluk değil, sunduğu emeğin ve ilginin reddi olarak algılar.\n3. Güvenlik ve Kontrol — Tabağa eklenen o ikinci porsiyon, senin hâlâ onun koruması altında olduğunu hissettiren sessiz bir onay mekanizmasıdır.\n\nKonu hiçbir zaman yemek olmadı, hep gösterilen ilgi ve bağdı. Ama yine de o dördüncü köfte tabağa konacak.\n\n📌 Kaydet — pazar kahvaltısında lazım olacak.\n🔁 Bunu annesinin tabağını reddedince evde kriz çıkan arkadaşına gönder.\nSen 'doydum' deyince tabağına ikinci porsiyon ekleniyor mu?\nYazan: Ece.\nTakip et: @kizlar.kodu — her şeyin bir sebebi var.",
+  "caption": "O bakışı yanlış yerinden mi kestin? Her uzun bakış ilgi demek değildir, bazen sadece terziye gitmeyen bir pantolon gibi yanlış anlaşılır. Uzun bakışın ilgi mi tehdit mi olduğunu anlamanın terzilik sırları:1. SÜRE: Bakışın uzun olması tek başına bir anlam taşımaz. Rahat ve yumuşak bir uzun bakış ilgi belirtirken, sert ve delici bir uzun bakış tehditkar olabilir. Tıpkı bir kumaşı sadece boyuna göre kesmek gibi; eni, dokusu da önemli.2. KAŞLAR: Kaşların konumu bakışın kalıbını tamamen değiştirir. Hafif kalkık veya doğal duran kaşlar merak ve ilgiyi gösterirken, çatık veya gergin kaşlar genellikle öfke veya meydan okuma sinyalidir. Kaşlar, terzilikteki yaka detayı gibidir; modelin havasını belirler.3. MESAFE: Kişiler arası fiziksel mesafe, bakışın anlamını etkileyen gizli bir ölçüdür. Kişisel alana saygılı bir yakınlıktaki bakış ilgi gösterirken, aşırı yakın ve invaziv bir mesafe tehdit algısını güçlendirir. Pantolon paçasını keserken mesafeyi doğru ayarlamazsan yamuk kalır ya, işte öyle.4. AMAÇ: Bakışın altında yatan asıl niyet, flört belirsizliğinin anahtarıdır. Bağlantı kurma ve merak etme niyeti ilgiye işaret ederken, güç gösterisi veya üstünlük kurma amacı tehditkardır. Terziye 'bollaştırırız' diye diye alıp kenara attığın kıyafetler gibi, niyetini doğru anlamazsan o bakış hep kenarda kalır. Unutma, her bakışın bir bağlamı var. Sadece süresiyle yorumlamak, dar gelen pantolonu terziye götürmeden giymeye çalışmak gibidir. Bakışları doğru kesip biçmeyi öğrenmezsen, o çok beğendiğin 'ilgi' bakışı terzinin elinden çıkmamış pantolon gibi içinde kalır.\n\n📌 Kaydet — bir dahaki flört belirsizliğinde lazım olacak.\n\n🔁 Bunu her bakışı kendine yoran arkadaşına gönder. Sen hangi bakışı yanlış kestin, itiraf et? Yazan: Ece.\nTakip et: @kizlar.kodu — her şeyin bir sebebi var.",
   "hashtags": [
     "#merak",
-    "#günlükhayat",
-    "#ailedinamiği",
-    "#annekız",
-    "#yeyavrum",
-    "#psikoloji"
+    "#kadınlar",
+    "#nedenoluyor",
+    "#gözteması",
+    "#bedendili",
+    "#ilişkiler",
+    "#flört"
   ],
-  "takeaway": "Tabağı reddetmek yemeği değil, annenin sevgisini reddetmek gibidir.",
+  "takeaway": "Bakışları doğru kesemezsen, o kıyafet hep içinde kalır.",
   "footage_queries": [
-    "cozy home interior soft light",
-    "coffee cup steam morning light"
+    "coffee cup steam morning light",
+    "empty bed pillow morning light"
   ],
   "narration": [
-    "Annenin 'ye yavrum' ısrarı neden bitmez?",
-    "Sen tabağı kalori görürsün, o ise sevgisini sunma biçimi görür.",
-    "Yemeği reddettiğinde beyin bunu doğrudan onun emeğini reddetmek gibi kodlar.",
-    "Tabağa eklenen ikinci porsiyon aslında bakım ve kontrol duygusunu tazeler.",
-    "Tabağı reddetmek yemeği değil, annenin sevgisini reddetmek gibi algılanır."
+    "O bakışı yanlış yerinden mi kestin?",
+    "Bakışın süresi tek başına yeterli değil, terzinin metresi gibi.",
+    "Kaşlar kalkık mı, çatık mı? Kalıbı tamamen değiştirir.",
+    "Mesafe de önemli; daraltınca paçası yamuk kalır.",
+    "Niyetini terziden çok sen anlarsın, tadilat gerekiyorsa.",
+    "Bakışları doğru kesemezsen, o kıyafet hep içinde kalır."
   ],
-  "subject": "ye yavrum",
-  "sendTo": "annesinin tabağını reddedince evde kriz çıkan arkadaşına",
-  "soru": "Sen 'doydum' deyince tabağına ikinci porsiyon ekleniyor mu?",
+  "subject": "göz teması",
+  "sendTo": "Her bakışı kendine yoran arkadaşına gönder.",
+  "soru": "Sen hangi bakışı yanlış kestin, itiraf et?",
   "theme": "#7de2d1",
   "brand": {
     "handle": "@kizlar.kodu",
@@ -77,30 +85,35 @@
   "footage": true,
   "beats": [
     {
-      "text": "Annenin 'ye yavrum' ısrarı neden bitmez?",
+      "text": "O bakışı yanlış yerinden mi kestin?",
       "start": 0.35,
-      "dur": 2.479
+      "dur": 2.251
     },
     {
-      "text": "Sen tabağı kalori görürsün, o ise sevgisini sunma biçimi görür.",
-      "start": 2.829,
-      "dur": 3.904
+      "text": "Bakışın süresi tek başına yeterli değil, terzinin metresi gibi.",
+      "start": 2.601,
+      "dur": 4.052
     },
     {
-      "text": "Yemeği reddettiğinde beyin bunu doğrudan onun emeğini reddetmek gibi kodlar.",
-      "start": 6.732,
-      "dur": 4.709
+      "text": "Kaşlar kalkık mı, çatık mı? Kalıbı tamamen değiştirir.",
+      "start": 6.654,
+      "dur": 3.473
     },
     {
-      "text": "Tabağa eklenen ikinci porsiyon aslında bakım ve kontrol duygusunu tazeler.",
-      "start": 11.442,
-      "dur": 4.585
+      "text": "Mesafe de önemli; daraltınca paçası yamuk kalır.",
+      "start": 10.127,
+      "dur": 3.087
     },
     {
-      "text": "Tabağı reddetmek yemeği değil, annenin sevgisini reddetmek gibi algılanır.",
-      "start": 16.027,
-      "dur": 5.685
+      "text": "Niyetini terziden çok sen anlarsın, tadilat gerekiyorsa.",
+      "start": 13.214,
+      "dur": 3.602
+    },
+    {
+      "text": "Bakışları doğru kesemezsen, o kıyafet hep içinde kalır.",
+      "start": 16.816,
+      "dur": 4.638
     }
   ],
-  "thumbOffset": 1840
+  "thumbOffset": 1725
 }

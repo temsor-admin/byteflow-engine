@@ -444,28 +444,28 @@
     "insightsAt": "2026-09-18T19:29:36.442Z"
   },
   {
-    "title": "Annenin 'Ye Yavrum' Kodunun Altındaki Mekanizma",
-    "subject": "ye yavrum",
-    "twist": "sezon-aldatmacasi",
-    "pillar": "aile-dinamigi",
+    "title": "Bakışların Gizli Terzisi",
+    "subject": "göz teması",
+    "twist": "anne-terzi",
+    "pillar": "ses-ve-beden",
     "layout": "vertical-stack",
     "kinds": "versus",
     "motion": "orbit",
     "theme": "#7de2d1",
     "source": "gemini",
     "footage": [
-      "pexels:empty bed pillow morning light",
       "pexels:coffee cup steam morning light",
+      "pexels:empty bed pillow morning light",
       "pexels:alarm clock on nightstand close up",
       "pexels:bathroom mirror steam close up"
     ],
-    "voice": 5,
+    "voice": 6,
     "voiceName": "Aoede",
     "muzik": "byteflow-ambient.mp3",
-    "sir": null,
-    "sirUygulandi": null,
-    "sirAtlandi": "dongu-null",
+    "sir": "Konuşma sırasında göz temasını ses tonunun tepe noktasında aşağı doğru kesmek amigdala düzeyinde submissif (bağımlı) bir",
+    "sirUygulandi": "geri-alindi",
+    "sirAtlandi": "istek-basarisiz",
     "date": "2026-09-18",
-    "durSec": 21.6
+    "durSec": 21.4
   }
 ]
