@@ -1,79 +1,82 @@
 {
-  "hook": "Gece 2 Netflix, sporun onarımını bitiriyor.",
-  "title": "Büyüme Hormonu ve Gece Netflix",
+  "hook": "Sabah çenen kilitliyse, geceleri kimseye söylemediğin o sırrın!",
+  "title": "Diş Sıkma: Gece Savaşının Sessiz Tetikçisi",
   "scenes": [
     {
-      "layout": "vertical-stack",
+      "layout": "cycle",
       "kind": "diagram",
       "nodes": [
         {
-          "id": "spor",
-          "label": "SPOR"
+          "id": "stres",
+          "label": "STRES"
         },
         {
-          "id": "derin-uyku",
-          "label": "DERİN UYKU"
+          "id": "kortizol",
+          "label": "KORTİZOL"
         },
         {
-          "id": "büyüme-hormonu",
-          "label": "BÜYÜME HORMONU"
+          "id": "masseter",
+          "label": "MASSETER KAS"
         },
         {
-          "id": "kas-onarımı",
-          "label": "KAS ONARIMI"
+          "id": "dissikma",
+          "label": "DİŞ SIKMA"
+        },
+        {
+          "id": "ceneagrisi",
+          "label": "ÇENE AĞRISI"
         }
       ],
       "steps": [
         {
-          "from": "spor",
-          "to": "derin-uyku",
-          "packet": "SİNYAL",
-          "status": "Yorulan kaslar, vücuda “uyku lazım”",
-          "color": "accent"
-        },
-        {
-          "from": "derin-uyku",
-          "to": "büyüme-hormonu",
-          "packet": "HORMON",
-          "status": "Derin uykunun ilk döngüsü, büyüme",
-          "color": "accent"
-        },
-        {
-          "from": "büyüme-hormonu",
-          "to": "kas-onarımı",
-          "packet": "DİZİ",
-          "status": "Gece 2 Netflix, bu altın onarım",
+          "from": "stres",
+          "to": "kortizol",
+          "packet": "TETİK",
+          "status": "stres bastı, kortizol partiye çağrıldı",
           "color": "warn"
+        },
+        {
+          "from": "kortizol",
+          "to": "masseter",
+          "packet": "SİNYAL",
+          "status": "kortizol masseteri 'hazır ol' diye",
+          "color": "accent"
+        },
+        {
+          "from": "masseter",
+          "to": "dissikma",
+          "packet": "GERİLİ",
+          "status": "masseter tüm gece izometrik kasıldı",
+          "color": "accent"
         }
       ]
     }
   ],
-  "caption": "Spor yaptın, yoruldun, kasların onarılmayı bekliyor… Ama sen hala gece 2 Netflix'tesin, değil mi? Vücudun onarım mekanizması ve o büyüme hormonu penceresi nasıl çalışıyor, adım adım:\n\n1. Spor Yorulması: Antrenman sonrası kaslarımız mikro yırtıklarla dolu olur ve vücudumuza 'acil onarım lazım' sinyali gönderir. Bu, kaliteli uykuya geçişin ilk adımıdır.\n2. Derin Uykunun Önemi: Yorulan kasların onarımı için vücudun ihtiyacı olan büyüme hormonu, derin uykunun İLK döngülerinde zirve yapar. Yani ilk saatler altın değerinde.\n3. O Kayıp Pencere: Gece geç saatlere kadar Netflix veya ekran başında kalmak, bu altın değerindeki derin uyku döngülerini ve dolayısıyla büyüme hormonu salgılanmasını doğrudan baltalar. Onarım penceresini kaçırırsın.\n\nSporun tüm faydasını görmek, kas gelişimini ve yağ yakımını desteklemek için, antrenman sonrası uykuna öncelik vermen şart.\n\nKasların sana 'biraz daha dizi izle' dediğinde, aslında 'daha fazla Netflix izle ve onarılma' demek istiyor.\n\n📌 Kaydet — bir dahaki gece Netflix krizinde lazım olacak.\n🔁 Bunu spor yapıp sonra gece 2'ye kadar Netflix izleyen arkadaşına gönder.\nSen de spor sonrası Netflix'e dalanlardan mısın?\nYazan: Derin.\nTakip et: @cilt.kodu — güzellik, pazarlama değil.",
+  "caption": "Sabah çenen kilitli mi? Geceleri kimseye söylemediğin o sırrın aslında bir döngü. Diş sıkma döngüsü adım adım nasıl çalışıyor ve masseter kası neden yoruluyor:1. Stres: Gün içinde yaşadığımız her şey, biriken gerilim olarak kaslarımıza yansır. Geceleri de rahat bırakmaz.2. Kortizol: Stres tepkisi olarak vücut kortizol salgılar. Bu “savaş ya da kaç” hormonu, kasları sürekli bir gerilim halinde tutmaya programlar.3. Masseter Kası: Çenemizin en güçlü kaslarından olan masseter, kortizolün etkisiyle gece boyunca istemsizce kasılır. Hatta sen uyurken bile “izometrik” çalışır; yani hareket etmeden gergin kalır.4. Diş Sıkma: Masseter kasının bu sürekli gerginliği, dişlerin istemsizce sıkılmasına ve gıcırdatılmasına yol açar. Bu, çeneye inanılmaz bir yük bindirir.5. Çene Ağrısı: Gece boyu aşırı çalışan masseter kası ve çene eklemleri yorulur, sabahları ise kilitlenme, ağrı ve baş ağrısı gibi şikayetlerle uyanırız. Bu ağrı, yeni bir stres kaynağı olup döngüyü sürdürür. Diş hekimlerinin önerdiği plaklar semptomları hafifletse de, asıl tetikleyici olan stresi yönetmek döngüyü kırmak için çok önemli. Yani sabah ağrıyan çenen aslında gece yaşadığın o gizli savaşın iziymiş. Sen de rüyanda spor yapmış gibi uyanıyorsun!\n\n📌 Kaydet — sabah çenen kilitlendiğinde mekanizmayı hatırlamak için.\n\n🔁 Bunu geceleri dişini sıkıp sabah ağrıyan çenesini gizleyen arkadaşına gönder. Senin çenen gece mi kilitleniyor, gündüz mü? Yazan: Derin.\nTakip et: @cilt.kodu — güzellik, pazarlama değil.",
   "hashtags": [
     "#ciltbakimi",
     "#güzellik",
-    "#uyku",
-    "#sporsonrası",
-    "#büyümehormonu",
-    "#kasonarımı",
-    "#iyileşme",
-    "#uykusağlığı"
+    "#dişsıkma",
+    "#çeneağrısı",
+    "#stresyönetimi",
+    "#kadınsağlığı",
+    "#masseter"
   ],
-  "takeaway": "Kasların için yapacağın en iyi spor, Netflix'i kapatmak.",
+  "takeaway": "Ağrıyan çenen, gece yaşadığın o gizli savaşın yorgunluk madalyasıymış.",
   "footage_queries": [
-    "dumbbell on gym floor close up",
-    "sleep mask on nightstand close up"
+    "sleep mask on nightstand close up",
+    "herbal tea cup steam close up"
   ],
   "narration": [
-    "Gece 2 Netflix, sporun onarımını bitiriyor.",
-    "Yorulan kaslarımız, vücudumuza 'Hemen derin uykuya geç' sinyali verir.",
-    "Çünkü derin uykunun ilk döngüsünde, büyüme hormonu zirve yapar.",
-    "Ne yazık ki gece 2'deki diziler, bu altın pencereyi kaçırtır.",
-    "Kasların için yapacağın en iyi spor, Netflix'i kapatmak."
+    "Sabah çenen kilitliyse, yalnız değilsin!",
+    "Stres bastığında vücut kortizol hormonu salgılar.",
+    "Bu hormon, masseter kasına 'hazır ol' emri verir.",
+    "Masseter, tüm gece izometrik çalışıp gerilir.",
+    "Ağrıyan çenen, gece yaşadığın gizli savaşın madalyasıymış."
   ],
-  "subject": "büyüme uykusu",
-  "sendTo": "Spor yapıp sonra gece 2'ye kadar Netflix izleyen arkadaşına",
-  "soru": "Sen de spor sonrası Netflix'e dalanlardan mısın?",
+  "subject": "diş sıkma",
+  "sendTo": "geceleri dişini sıkıp sabah ağrıyan çenesini gizleyen arkadaşına",
+  "soru": "Senin çenen gece mi kilitleniyor, gündüz mü?",
   "theme": "#8fa8c8",
   "brand": {
     "handle": "@cilt.kodu",
@@ -98,30 +101,30 @@
   "footage": true,
   "beats": [
     {
-      "text": "Gece 2 Netflix, sporun onarımını bitiriyor.",
+      "text": "Sabah çenen kilitliyse, yalnız değilsin!",
       "start": 0.35,
-      "dur": 2.935
+      "dur": 3.036
     },
     {
-      "text": "Yorulan kaslarımız, vücudumuza 'Hemen derin uykuya geç' sinyali verir.",
-      "start": 3.285,
-      "dur": 4.778
+      "text": "Stres bastığında vücut kortizol hormonu salgılar.",
+      "start": 3.386,
+      "dur": 3.719
     },
     {
-      "text": "Çünkü derin uykunun ilk döngüsünde, büyüme hormonu zirve yapar.",
-      "start": 8.063,
-      "dur": 4.3
+      "text": "Bu hormon, masseter kasına 'hazır ol' emri verir.",
+      "start": 7.105,
+      "dur": 3.719
     },
     {
-      "text": "Ne yazık ki gece 2'deki diziler, bu altın pencereyi kaçırtır.",
-      "start": 12.363,
-      "dur": 4.164
+      "text": "Masseter, tüm gece izometrik çalışıp gerilir.",
+      "start": 10.824,
+      "dur": 3.415
     },
     {
-      "text": "Kasların için yapacağın en iyi spor, Netflix'i kapatmak.",
-      "start": 16.526,
-      "dur": 4.922
+      "text": "Ağrıyan çenen, gece yaşadığın gizli savaşın madalyasıymış.",
+      "start": 14.239,
+      "dur": 5.502
     }
   ],
-  "thumbOffset": 2068
+  "thumbOffset": 2030
 }
