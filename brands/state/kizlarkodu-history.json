@@ -444,9 +444,9 @@
     "insightsAt": "2026-09-17T20:05:11.543Z"
   },
   {
-    "title": "Erkeğin Eve Gelince Susma Mekanizması",
-    "subject": "mağara ihtiyacı",
-    "twist": "magaza-danismani",
+    "title": "Erkeklerdeki Çözüm Refleksi Ve Araçsal Destek",
+    "subject": "çözüm refleksi",
+    "twist": "iade-tembelligi",
     "pillar": "erkek-farki",
     "layout": "vertical-stack",
     "kinds": "versus",
@@ -454,18 +454,18 @@
     "theme": "#7de2d1",
     "source": "gemini",
     "footage": [
-      "pexels:blanket folded on sofa close up",
       "pexels:coffee cup steam morning light",
+      "pexels:socks on wooden floor close up",
       "pexels:alarm clock on nightstand close up",
       "pexels:bathroom mirror steam close up"
     ],
     "voice": 5,
-    "voiceName": "Kore",
+    "voiceName": "Puck",
     "muzik": "byteflow-ambient.mp3",
-    "sir": "Gün boyu aktif olan Görev-Odaklı Ağ (TPN) duraksadığında, empati ve sohbeti yöneten Varsayılan Mod Ağı (DMN) hemen devre",
-    "sirUygulandi": "kismi",
-    "sirAtlandi": null,
-    "date": "2026-09-13",
-    "durSec": 21.2
+    "sir": null,
+    "sirUygulandi": null,
+    "sirAtlandi": "dongu-null",
+    "date": "2026-09-18",
+    "durSec": 21.4
   }
 ]

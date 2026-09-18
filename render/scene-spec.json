@@ -1,126 +1,106 @@
 {
-  "hook": "Gece 2 Netflix, sporun onarımını bitiriyor.",
-  "title": "Büyüme Hormonu ve Gece Netflix",
+  "hook": "Sen sadece anlatmak istersin, o neden hemen akıl verir?",
+  "title": "Erkeklerdeki Çözüm Refleksi Ve Araçsal Destek",
   "scenes": [
     {
       "layout": "vertical-stack",
-      "kind": "diagram",
-      "nodes": [
+      "kind": "versus",
+      "left": "Araçsal Destek",
+      "right": "Duygusal Ayna",
+      "rows": [
         {
-          "id": "spor",
-          "label": "SPOR"
+          "label": "ODAK NOKTASI",
+          "left": "Mantıksal çözüm",
+          "right": "Duygusal bağ",
+          "winner": "right"
         },
         {
-          "id": "derin-uyku",
-          "label": "DERİN UYKU"
+          "label": "TEPKİ BİÇİMİ",
+          "left": "Çekiç ve plan",
+          "right": "Ayna ve dinleme",
+          "winner": "right"
         },
         {
-          "id": "büyüme-hormonu",
-          "label": "BÜYÜME HORMONU"
-        },
-        {
-          "id": "kas-onarımı",
-          "label": "KAS ONARIMI"
-        }
-      ],
-      "steps": [
-        {
-          "from": "spor",
-          "to": "derin-uyku",
-          "packet": "SİNYAL",
-          "status": "Yorulan kaslar, vücuda “uyku lazım”",
-          "color": "accent"
-        },
-        {
-          "from": "derin-uyku",
-          "to": "büyüme-hormonu",
-          "packet": "HORMON",
-          "status": "Derin uykunun ilk döngüsü, büyüme",
-          "color": "accent"
-        },
-        {
-          "from": "büyüme-hormonu",
-          "to": "kas-onarımı",
-          "packet": "DİZİ",
-          "status": "Gece 2 Netflix, bu altın onarım",
-          "color": "warn"
+          "label": "MANTIKSAL KOD",
+          "left": "Sorunu yok etmek",
+          "right": "Hissi paylaşmak",
+          "winner": "tie"
         }
       ]
     }
   ],
-  "caption": "Spor yaptın, yoruldun, kasların onarılmayı bekliyor… Ama sen hala gece 2 Netflix'tesin, değil mi? Vücudun onarım mekanizması ve o büyüme hormonu penceresi nasıl çalışıyor, adım adım:\n\n1. Spor Yorulması: Antrenman sonrası kaslarımız mikro yırtıklarla dolu olur ve vücudumuza 'acil onarım lazım' sinyali gönderir. Bu, kaliteli uykuya geçişin ilk adımıdır.\n2. Derin Uykunun Önemi: Yorulan kasların onarımı için vücudun ihtiyacı olan büyüme hormonu, derin uykunun İLK döngülerinde zirve yapar. Yani ilk saatler altın değerinde.\n3. O Kayıp Pencere: Gece geç saatlere kadar Netflix veya ekran başında kalmak, bu altın değerindeki derin uyku döngülerini ve dolayısıyla büyüme hormonu salgılanmasını doğrudan baltalar. Onarım penceresini kaçırırsın.\n\nSporun tüm faydasını görmek, kas gelişimini ve yağ yakımını desteklemek için, antrenman sonrası uykuna öncelik vermen şart.\n\nKasların sana 'biraz daha dizi izle' dediğinde, aslında 'daha fazla Netflix izle ve onarılma' demek istiyor.\n\n📌 Kaydet — bir dahaki gece Netflix krizinde lazım olacak.\n🔁 Bunu spor yapıp sonra gece 2'ye kadar Netflix izleyen arkadaşına gönder.\nSen de spor sonrası Netflix'e dalanlardan mısın?\nYazan: Derin.\nTakip et: @cilt.kodu — güzellik, pazarlama değil.",
+  "caption": "Sen sadece anlatmak istersin, o neden hemen akıl verir?\n\nErkeklerin dert dinlerken hemen çözüme geçme mekanizması, adım adım:\n\n1. Araçsal destek — Erkek zihni sorunu dinlerken romantik değil, korumacı bir eylem planı hazırlar.\n2. Duygusal ayna eksikliği — Kadınlar hissin onaylanmasını beklerken karşı taraf çekiçle tamir etmeye girişir.\n3. Çözüm refleksi — Amacı sizi geçiştirmek değil, yükü hemen üstünüzden alarak rahatlatmaktır.\n\nNe istediğinizi baştan 'sadece dinlenmek istiyorum' diyerek belirtmek iletişimi kurtarır.\n\nYani size hemen akıl veriyorsa umursamadığından değil, usta çırak ilişkisi kurduğundandır.\n\n📌 Kaydet — bir dahaki dertleşme krizinde lazım olacak.\n🔁 Bunu bir derdini anlatınca sana hemen plan çıkaran o arkadaşına gönder.\nSen hangisini istersin: Hemen bir çözüm mü, yoksa sadece ayna mı?\nYazan: Ece.\nTakip et: @kizlar.kodu — her şeyin bir sebebi var.",
   "hashtags": [
-    "#ciltbakimi",
-    "#güzellik",
-    "#uyku",
-    "#sporsonrası",
-    "#büyümehormonu",
-    "#kasonarımı",
-    "#iyileşme",
-    "#uykusağlığı"
+    "#merak",
+    "#kadınlar",
+    "#günlükhayat",
+    "#erkekaklı",
+    "#ilişkiler",
+    "#çözümrefleksi",
+    "#psikoloji"
   ],
-  "takeaway": "Kasların için yapacağın en iyi spor, Netflix'i kapatmak.",
+  "takeaway": "Çekiç tutan el kötü niyetli değil, sadece farklı konuşuyor.",
   "footage_queries": [
-    "dumbbell on gym floor close up",
-    "sleep mask on nightstand close up"
+    "coffee cup steam morning light",
+    "cozy home interior soft light"
   ],
   "narration": [
-    "Gece 2 Netflix, sporun onarımını bitiriyor.",
-    "Yorulan kaslarımız, vücudumuza 'Hemen derin uykuya geç' sinyali verir.",
-    "Çünkü derin uykunun ilk döngüsünde, büyüme hormonu zirve yapar.",
-    "Ne yazık ki gece 2'deki diziler, bu altın pencereyi kaçırtır.",
-    "Kasların için yapacağın en iyi spor, Netflix'i kapatmak."
+    "Derdi anlatınca neden hemen çözüm üretir?",
+    "Erkeklerde görülen çözüm refleksi umursamazlık değil, araçsal destektir.",
+    "Sen duygusal ayna ararken, o sorunu çekiçle yıkmaya çalışır.",
+    "Amaç seni geçiştirmek değil, tehlikeyi mantıkla hemen ortadan kaldırmaktır.",
+    "Çekiç tutan el kötü niyetli değil, sadece farklı konuşuyor."
   ],
-  "subject": "büyüme uykusu",
-  "sendTo": "Spor yapıp sonra gece 2'ye kadar Netflix izleyen arkadaşına",
-  "soru": "Sen de spor sonrası Netflix'e dalanlardan mısın?",
-  "theme": "#8fa8c8",
+  "subject": "çözüm refleksi",
+  "sendTo": "Bir derdini anlatınca sana hemen plan çıkaran o arkadaşına",
+  "soru": "Sen hangisini istersin: Hemen bir çözüm mü, yoksa sadece ayna mı?",
+  "theme": "#7de2d1",
   "brand": {
-    "handle": "@cilt.kodu",
-    "signoff": "güzellik, pazarlama değil",
+    "handle": "@kizlar.kodu",
+    "signoff": "her şeyin bir sebebi var",
     "shareCta": "↗  Bunu ihtiyacı olan birine gönder",
-    "saveCue": "KAYDET · sonraki ürün krizinde lazım",
+    "saveCue": "KAYDET · bir dahaki siparişte lazım",
     "tipografi": {
-      "puntoCarpani": 1,
-      "harfAralik": -1.4
+      "puntoCarpani": 1.06,
+      "harfAralik": -2.1
     }
   },
   "palette": {
-    "bg": "#17110f",
-    "card": "#241b18",
-    "stroke": "#3c2f2a",
-    "text": "#f6ece7",
-    "muted": "#b9a49c"
+    "bg": "#0e0f1a",
+    "card": "#171a2c",
+    "stroke": "#2a2f4a",
+    "text": "#f2f0ff",
+    "muted": "#a9a6c9"
   },
   "language": "tr",
-  "motion": "ripple",
+  "motion": "orbit",
   "format": "kinetik",
   "footage": true,
   "beats": [
     {
-      "text": "Gece 2 Netflix, sporun onarımını bitiriyor.",
+      "text": "Derdi anlatınca neden hemen çözüm üretir?",
       "start": 0.35,
-      "dur": 2.935
+      "dur": 2.672
     },
     {
-      "text": "Yorulan kaslarımız, vücudumuza 'Hemen derin uykuya geç' sinyali verir.",
-      "start": 3.285,
-      "dur": 4.778
+      "text": "Erkeklerde görülen çözüm refleksi umursamazlık değil, araçsal destektir.",
+      "start": 3.022,
+      "dur": 4.693
     },
     {
-      "text": "Çünkü derin uykunun ilk döngüsünde, büyüme hormonu zirve yapar.",
-      "start": 8.063,
-      "dur": 4.3
+      "text": "Sen duygusal ayna ararken, o sorunu çekiçle yıkmaya çalışır.",
+      "start": 7.715,
+      "dur": 3.911
     },
     {
-      "text": "Ne yazık ki gece 2'deki diziler, bu altın pencereyi kaçırtır.",
-      "start": 12.363,
-      "dur": 4.164
+      "text": "Amaç seni geçiştirmek değil, tehlikeyi mantıkla hemen ortadan kaldırmaktır.",
+      "start": 11.626,
+      "dur": 4.888
     },
     {
-      "text": "Kasların için yapacağın en iyi spor, Netflix'i kapatmak.",
-      "start": 16.526,
-      "dur": 4.922
+      "text": "Çekiç tutan el kötü niyetli değil, sadece farklı konuşuyor.",
+      "start": 16.514,
+      "dur": 4.946
     }
   ]
 }

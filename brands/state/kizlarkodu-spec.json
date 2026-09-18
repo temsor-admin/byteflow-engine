@@ -1,59 +1,59 @@
 {
-  "hook": "İşten dönünce neden hiç konuşmaz?",
-  "title": "Erkeğin Eve Gelince Susma Mekanizması",
+  "hook": "Sen sadece anlatmak istersin, o neden hemen akıl verir?",
+  "title": "Erkeklerdeki Çözüm Refleksi Ve Araçsal Destek",
   "scenes": [
     {
       "layout": "vertical-stack",
       "kind": "versus",
-      "left": "KADIN BEYNİ",
-      "right": "ERKEK BEYNİ",
+      "left": "Araçsal Destek",
+      "right": "Duygusal Ayna",
       "rows": [
         {
-          "label": "STRES YANITI",
-          "left": "Sohbetle oksitosin",
-          "right": "Sessizlikle kortizol",
-          "winner": "tie"
-        },
-        {
-          "label": "SİSTEM MODU",
-          "left": "Tend-and-befriend",
-          "right": "Sempatik sistem kapanışı",
-          "winner": "tie"
-        },
-        {
-          "label": "İŞTEN DÖNÜŞ",
-          "left": "Anlatıp rahatlama",
-          "right": "20 dk mağara süresi",
+          "label": "ODAK NOKTASI",
+          "left": "Mantıksal çözüm",
+          "right": "Duygusal bağ",
           "winner": "right"
+        },
+        {
+          "label": "TEPKİ BİÇİMİ",
+          "left": "Çekiç ve plan",
+          "right": "Ayna ve dinleme",
+          "winner": "right"
+        },
+        {
+          "label": "MANTIKSAL KOD",
+          "left": "Sorunu yok etmek",
+          "right": "Hissi paylaşmak",
+          "winner": "tie"
         }
       ]
     }
   ],
-  "caption": "İşten dönünce kapıdan girip tek kelime etmeyen o anı hepiniz yaşadınız. Eve gelince susması sana bir ceza ya da ilgisizlik değil, tamamen beyindeki o şalter geçişiyle alakalı.\n\nİşten gelince yaşanan o meşhur 'mağara' ihtiyacının arkasındaki asıl mekanizma:\n\n1. Beyin Hala Mesaide (TPN Aktif) — Gün boyu sorun çözen beyin, 'iş bitirme' modunda kalır. Bu moddayken empati ve tatlı sohbeti yöneten 'goygoy modu' (DMN) hemen devreye giremez. Bilgisayarın kapanırken güncelleme yapması gibi düşün.\n2. Sorular Birer 'İş Emri' — O daha sistemini kapatamamışken sorduğun 'Günün nasıl geçti?' sorusu, ona romantik bir ilgi gibi değil, çözülmesi gereken acil bir Jira ticket'ı veya yeni bir iş görevi gibi gelir. Beyin otomatikman kendini korumaya alıp iletişimi kilitler.\n3. Şalterin İnme Süresi — Sempatik sistemin o harareti düşene kadar gelen her sözel girdi beyinde kırmızı alarm verir. Yani o ilk 20 dakikalık derin sessizlik, aslında beynin mesaiyi bitirip eve giriş yapabilmesi için gereken zorunlu bir nörolojik mola.\n\nKısacası eve girer girmez ona yeni görevler (yani sorular) yüklemek yerine, 20 dakika kendi halinde 'mavi ekran' vermesine izin verirsen, akşamın geri kalanı kurtulur.\n\nSuskunluğu kişisel algılayıp dert edindik, ama meğerse adam sadece beyin motorunu soğutuyormuş.\n\n📌 Kaydet — eve dönüş krizlerinde lazım olacak.\n🔁 Bunu eve gelen sevgilisinin ilk 20 dakika susmasını kişisel alan arkadaşına gönder.\nSen işten gelince anlatıp rahatlayan taraf mısın, susan mı?\nYazan: Ece.\nTakip et: @kizlar.kodu — her şeyin bir sebebi var.",
+  "caption": "Sen sadece anlatmak istersin, o neden hemen akıl verir?\n\nErkeklerin dert dinlerken hemen çözüme geçme mekanizması, adım adım:\n\n1. Araçsal destek — Erkek zihni sorunu dinlerken romantik değil, korumacı bir eylem planı hazırlar.\n2. Duygusal ayna eksikliği — Kadınlar hissin onaylanmasını beklerken karşı taraf çekiçle tamir etmeye girişir.\n3. Çözüm refleksi — Amacı sizi geçiştirmek değil, yükü hemen üstünüzden alarak rahatlatmaktır.\n\nNe istediğinizi baştan 'sadece dinlenmek istiyorum' diyerek belirtmek iletişimi kurtarır.\n\nYani size hemen akıl veriyorsa umursamadığından değil, usta çırak ilişkisi kurduğundandır.\n\n📌 Kaydet — bir dahaki dertleşme krizinde lazım olacak.\n🔁 Bunu bir derdini anlatınca sana hemen plan çıkaran o arkadaşına gönder.\nSen hangisini istersin: Hemen bir çözüm mü, yoksa sadece ayna mı?\nYazan: Ece.\nTakip et: @kizlar.kodu — her şeyin bir sebebi var.",
   "hashtags": [
     "#merak",
     "#kadınlar",
-    "#ilişkikodları",
-    "#erkekler",
     "#günlükhayat",
-    "#mağaraihtiyacı",
-    "#iletişim"
+    "#erkekaklı",
+    "#ilişkiler",
+    "#çözümrefleksi",
+    "#psikoloji"
   ],
-  "takeaway": "Eve gelince susması ceza değil, sempatik sistemin soğuma molasıdır.",
+  "takeaway": "Çekiç tutan el kötü niyetli değil, sadece farklı konuşuyor.",
   "footage_queries": [
-    "cozy home interior soft light",
-    "coffee cup steam morning light"
+    "coffee cup steam morning light",
+    "cozy home interior soft light"
   ],
   "narration": [
-    "İşten dönünce neden hiç konuşmaz?",
-    "Çünkü beyni hala 'iş bitirme' modunda takılı kalmıştır.",
-    "Sorduğun her soru ona yeni bir görev gibi gelir.",
-    "Sistem goygoy moduna geçene kadar o şalteri tamamen indirir.",
-    "Eve gelince konuşmaması sana tepki değil beyin sıfırlama sürecidir."
+    "Derdi anlatınca neden hemen çözüm üretir?",
+    "Erkeklerde görülen çözüm refleksi umursamazlık değil, araçsal destektir.",
+    "Sen duygusal ayna ararken, o sorunu çekiçle yıkmaya çalışır.",
+    "Amaç seni geçiştirmek değil, tehlikeyi mantıkla hemen ortadan kaldırmaktır.",
+    "Çekiç tutan el kötü niyetli değil, sadece farklı konuşuyor."
   ],
-  "subject": "mağara ihtiyacı",
-  "sendTo": "eve gelen sevgilisinin ilk 20 dakika susmasını kişisel alan arkadaşına",
-  "soru": "Sen işten gelince anlatıp rahatlayan taraf mısın, susan mı?",
+  "subject": "çözüm refleksi",
+  "sendTo": "Bir derdini anlatınca sana hemen plan çıkaran o arkadaşına",
+  "soru": "Sen hangisini istersin: Hemen bir çözüm mü, yoksa sadece ayna mı?",
   "theme": "#7de2d1",
   "brand": {
     "handle": "@kizlar.kodu",
@@ -78,30 +78,30 @@
   "footage": true,
   "beats": [
     {
-      "text": "İşten dönünce neden hiç konuşmaz?",
+      "text": "Derdi anlatınca neden hemen çözüm üretir?",
       "start": 0.35,
-      "dur": 2.476
+      "dur": 2.672
     },
     {
-      "text": "Çünkü beyni hala 'iş bitirme' modunda takılı kalmıştır.",
-      "start": 2.826,
-      "dur": 4.126
+      "text": "Erkeklerde görülen çözüm refleksi umursamazlık değil, araçsal destektir.",
+      "start": 3.022,
+      "dur": 4.693
     },
     {
-      "text": "Sorduğun her soru ona yeni bir görev gibi gelir.",
-      "start": 6.952,
-      "dur": 3.601
+      "text": "Sen duygusal ayna ararken, o sorunu çekiçle yıkmaya çalışır.",
+      "start": 7.715,
+      "dur": 3.911
     },
     {
-      "text": "Sistem goygoy moduna geçene kadar o şalteri tamamen indirir.",
-      "start": 10.553,
-      "dur": 4.501
+      "text": "Amaç seni geçiştirmek değil, tehlikeyi mantıkla hemen ortadan kaldırmaktır.",
+      "start": 11.626,
+      "dur": 4.888
     },
     {
-      "text": "Eve gelince konuşmaması sana tepki değil beyin sıfırlama sürecidir.",
-      "start": 15.054,
-      "dur": 6.127
+      "text": "Çekiç tutan el kötü niyetli değil, sadece farklı konuşuyor.",
+      "start": 16.514,
+      "dur": 4.946
     }
   ],
-  "thumbOffset": 1838
+  "thumbOffset": 1936
 }
