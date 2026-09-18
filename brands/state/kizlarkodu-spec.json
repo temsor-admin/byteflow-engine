@@ -1,59 +1,58 @@
 {
-  "hook": "Sen sadece anlatmak istersin, o neden hemen akıl verir?",
-  "title": "Erkeklerdeki Çözüm Refleksi Ve Araçsal Destek",
+  "hook": "Annenin 'doymadın sen' ısrarı kalori hesabı değil — peki ne?",
+  "title": "Annenin 'Ye Yavrum' Kodunun Altındaki Mekanizma",
   "scenes": [
     {
       "layout": "vertical-stack",
       "kind": "versus",
-      "left": "Araçsal Destek",
-      "right": "Duygusal Ayna",
+      "left": "Doydum Sanan Sen",
+      "right": "Tabağı Dolduran Anne",
       "rows": [
         {
-          "label": "ODAK NOKTASI",
-          "left": "Mantıksal çözüm",
-          "right": "Duygusal bağ",
+          "label": "TABAKTAKİ",
+          "left": "Sadece kalori",
+          "right": "Bakım ve sevgisi",
           "winner": "right"
         },
         {
-          "label": "TEPKİ BİÇİMİ",
-          "left": "Çekiç ve plan",
-          "right": "Ayna ve dinleme",
+          "label": "REDDETMEK",
+          "left": "Kelimede doymak",
+          "right": "Emeği reddetmek",
           "winner": "right"
         },
         {
-          "label": "MANTIKSAL KOD",
-          "left": "Sorunu yok etmek",
-          "right": "Hissi paylaşmak",
-          "winner": "tie"
+          "label": "İKİNCİ PORSİYON",
+          "left": "Fazla yemek",
+          "right": "Güvende hissetmek",
+          "winner": "right"
         }
       ]
     }
   ],
-  "caption": "Sen sadece anlatmak istersin, o neden hemen akıl verir?\n\nErkeklerin dert dinlerken hemen çözüme geçme mekanizması, adım adım:\n\n1. Araçsal destek — Erkek zihni sorunu dinlerken romantik değil, korumacı bir eylem planı hazırlar.\n2. Duygusal ayna eksikliği — Kadınlar hissin onaylanmasını beklerken karşı taraf çekiçle tamir etmeye girişir.\n3. Çözüm refleksi — Amacı sizi geçiştirmek değil, yükü hemen üstünüzden alarak rahatlatmaktır.\n\nNe istediğinizi baştan 'sadece dinlenmek istiyorum' diyerek belirtmek iletişimi kurtarır.\n\nYani size hemen akıl veriyorsa umursamadığından değil, usta çırak ilişkisi kurduğundandır.\n\n📌 Kaydet — bir dahaki dertleşme krizinde lazım olacak.\n🔁 Bunu bir derdini anlatınca sana hemen plan çıkaran o arkadaşına gönder.\nSen hangisini istersin: Hemen bir çözüm mü, yoksa sadece ayna mı?\nYazan: Ece.\nTakip et: @kizlar.kodu — her şeyin bir sebebi var.",
+  "caption": "Annenin 'doymadın sen' demesi aslında kalori hesabı değil.\n\nAnnenin 'ye yavrum' cümlesinin arkasındaki psikolojik mekanizma:\n\n1. Bakım ve Aidiyet — Anne için yemek yedirmek, sevgisini ve varlığını somut olarak göstermenin en temel yoludur.\n2. Emeğin Kodlanması — Sen 'doydum' dediğinde, beyin bunu sadece doygunluk değil, sunduğu emeğin ve ilginin reddi olarak algılar.\n3. Güvenlik ve Kontrol — Tabağa eklenen o ikinci porsiyon, senin hâlâ onun koruması altında olduğunu hissettiren sessiz bir onay mekanizmasıdır.\n\nKonu hiçbir zaman yemek olmadı, hep gösterilen ilgi ve bağdı. Ama yine de o dördüncü köfte tabağa konacak.\n\n📌 Kaydet — pazar kahvaltısında lazım olacak.\n🔁 Bunu annesinin tabağını reddedince evde kriz çıkan arkadaşına gönder.\nSen 'doydum' deyince tabağına ikinci porsiyon ekleniyor mu?\nYazan: Ece.\nTakip et: @kizlar.kodu — her şeyin bir sebebi var.",
   "hashtags": [
     "#merak",
-    "#kadınlar",
     "#günlükhayat",
-    "#erkekaklı",
-    "#ilişkiler",
-    "#çözümrefleksi",
+    "#ailedinamiği",
+    "#annekız",
+    "#yeyavrum",
     "#psikoloji"
   ],
-  "takeaway": "Çekiç tutan el kötü niyetli değil, sadece farklı konuşuyor.",
+  "takeaway": "Tabağı reddetmek yemeği değil, annenin sevgisini reddetmek gibidir.",
   "footage_queries": [
-    "coffee cup steam morning light",
-    "cozy home interior soft light"
+    "cozy home interior soft light",
+    "coffee cup steam morning light"
   ],
   "narration": [
-    "Derdi anlatınca neden hemen çözüm üretir?",
-    "Erkeklerde görülen çözüm refleksi umursamazlık değil, araçsal destektir.",
-    "Sen duygusal ayna ararken, o sorunu çekiçle yıkmaya çalışır.",
-    "Amaç seni geçiştirmek değil, tehlikeyi mantıkla hemen ortadan kaldırmaktır.",
-    "Çekiç tutan el kötü niyetli değil, sadece farklı konuşuyor."
+    "Annenin 'ye yavrum' ısrarı neden bitmez?",
+    "Sen tabağı kalori görürsün, o ise sevgisini sunma biçimi görür.",
+    "Yemeği reddettiğinde beyin bunu doğrudan onun emeğini reddetmek gibi kodlar.",
+    "Tabağa eklenen ikinci porsiyon aslında bakım ve kontrol duygusunu tazeler.",
+    "Tabağı reddetmek yemeği değil, annenin sevgisini reddetmek gibi algılanır."
   ],
-  "subject": "çözüm refleksi",
-  "sendTo": "Bir derdini anlatınca sana hemen plan çıkaran o arkadaşına",
-  "soru": "Sen hangisini istersin: Hemen bir çözüm mü, yoksa sadece ayna mı?",
+  "subject": "ye yavrum",
+  "sendTo": "annesinin tabağını reddedince evde kriz çıkan arkadaşına",
+  "soru": "Sen 'doydum' deyince tabağına ikinci porsiyon ekleniyor mu?",
   "theme": "#7de2d1",
   "brand": {
     "handle": "@kizlar.kodu",
@@ -78,30 +77,30 @@
   "footage": true,
   "beats": [
     {
-      "text": "Derdi anlatınca neden hemen çözüm üretir?",
+      "text": "Annenin 'ye yavrum' ısrarı neden bitmez?",
       "start": 0.35,
-      "dur": 2.672
+      "dur": 2.479
     },
     {
-      "text": "Erkeklerde görülen çözüm refleksi umursamazlık değil, araçsal destektir.",
-      "start": 3.022,
-      "dur": 4.693
+      "text": "Sen tabağı kalori görürsün, o ise sevgisini sunma biçimi görür.",
+      "start": 2.829,
+      "dur": 3.904
     },
     {
-      "text": "Sen duygusal ayna ararken, o sorunu çekiçle yıkmaya çalışır.",
-      "start": 7.715,
-      "dur": 3.911
+      "text": "Yemeği reddettiğinde beyin bunu doğrudan onun emeğini reddetmek gibi kodlar.",
+      "start": 6.732,
+      "dur": 4.709
     },
     {
-      "text": "Amaç seni geçiştirmek değil, tehlikeyi mantıkla hemen ortadan kaldırmaktır.",
-      "start": 11.626,
-      "dur": 4.888
+      "text": "Tabağa eklenen ikinci porsiyon aslında bakım ve kontrol duygusunu tazeler.",
+      "start": 11.442,
+      "dur": 4.585
     },
     {
-      "text": "Çekiç tutan el kötü niyetli değil, sadece farklı konuşuyor.",
-      "start": 16.514,
-      "dur": 4.946
+      "text": "Tabağı reddetmek yemeği değil, annenin sevgisini reddetmek gibi algılanır.",
+      "start": 16.027,
+      "dur": 5.685
     }
   ],
-  "thumbOffset": 1936
+  "thumbOffset": 1840
 }

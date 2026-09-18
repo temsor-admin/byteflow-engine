@@ -1,83 +1,59 @@
 {
-  "hook": "Sabah çenen kilitliyse, geceleri kimseye söylemediğin o sırrın!",
-  "title": "Diş Sıkma: Gece Savaşının Sessiz Tetikçisi",
+  "hook": "Annenin 'doymadın sen' ısrarı kalori hesabı değil — peki ne?",
+  "title": "Annenin 'Ye Yavrum' Kodunun Altındaki Mekanizma",
   "scenes": [
     {
-      "layout": "cycle",
-      "kind": "diagram",
-      "nodes": [
+      "layout": "vertical-stack",
+      "kind": "versus",
+      "left": "Doydum Sanan Sen",
+      "right": "Tabağı Dolduran Anne",
+      "rows": [
         {
-          "id": "stres",
-          "label": "STRES"
+          "label": "TABAKTAKİ",
+          "left": "Sadece kalori",
+          "right": "Bakım ve sevgisi",
+          "winner": "right"
         },
         {
-          "id": "kortizol",
-          "label": "KORTİZOL"
+          "label": "REDDETMEK",
+          "left": "Kelimede doymak",
+          "right": "Emeği reddetmek",
+          "winner": "right"
         },
         {
-          "id": "masseter",
-          "label": "MASSETER KAS"
-        },
-        {
-          "id": "dissikma",
-          "label": "DİŞ SIKMA"
-        },
-        {
-          "id": "ceneagrisi",
-          "label": "ÇENE AĞRISI"
-        }
-      ],
-      "steps": [
-        {
-          "from": "stres",
-          "to": "kortizol",
-          "packet": "TETİK",
-          "status": "stres bastı, kortizol partiye çağrıldı",
-          "color": "warn"
-        },
-        {
-          "from": "kortizol",
-          "to": "masseter",
-          "packet": "SİNYAL",
-          "status": "kortizol masseteri 'hazır ol' diye",
-          "color": "accent"
-        },
-        {
-          "from": "masseter",
-          "to": "dissikma",
-          "packet": "GERİLİ",
-          "status": "masseter tüm gece izometrik kasıldı",
-          "color": "accent"
+          "label": "İKİNCİ PORSİYON",
+          "left": "Fazla yemek",
+          "right": "Güvende hissetmek",
+          "winner": "right"
         }
       ]
     }
   ],
-  "caption": "Sabah çenen kilitli mi? Geceleri kimseye söylemediğin o sırrın aslında bir döngü. Diş sıkma döngüsü adım adım nasıl çalışıyor ve masseter kası neden yoruluyor:1. Stres: Gün içinde yaşadığımız her şey, biriken gerilim olarak kaslarımıza yansır. Geceleri de rahat bırakmaz.2. Kortizol: Stres tepkisi olarak vücut kortizol salgılar. Bu “savaş ya da kaç” hormonu, kasları sürekli bir gerilim halinde tutmaya programlar.3. Masseter Kası: Çenemizin en güçlü kaslarından olan masseter, kortizolün etkisiyle gece boyunca istemsizce kasılır. Hatta sen uyurken bile “izometrik” çalışır; yani hareket etmeden gergin kalır.4. Diş Sıkma: Masseter kasının bu sürekli gerginliği, dişlerin istemsizce sıkılmasına ve gıcırdatılmasına yol açar. Bu, çeneye inanılmaz bir yük bindirir.5. Çene Ağrısı: Gece boyu aşırı çalışan masseter kası ve çene eklemleri yorulur, sabahları ise kilitlenme, ağrı ve baş ağrısı gibi şikayetlerle uyanırız. Bu ağrı, yeni bir stres kaynağı olup döngüyü sürdürür. Diş hekimlerinin önerdiği plaklar semptomları hafifletse de, asıl tetikleyici olan stresi yönetmek döngüyü kırmak için çok önemli. Yani sabah ağrıyan çenen aslında gece yaşadığın o gizli savaşın iziymiş. Sen de rüyanda spor yapmış gibi uyanıyorsun!\n\n📌 Kaydet — sabah çenen kilitlendiğinde mekanizmayı hatırlamak için.\n\n🔁 Bunu geceleri dişini sıkıp sabah ağrıyan çenesini gizleyen arkadaşına gönder. Senin çenen gece mi kilitleniyor, gündüz mü? Yazan: Derin.\nTakip et: @cilt.kodu — güzellik, pazarlama değil.",
+  "caption": "Annenin 'doymadın sen' demesi aslında kalori hesabı değil.\n\nAnnenin 'ye yavrum' cümlesinin arkasındaki psikolojik mekanizma:\n\n1. Bakım ve Aidiyet — Anne için yemek yedirmek, sevgisini ve varlığını somut olarak göstermenin en temel yoludur.\n2. Emeğin Kodlanması — Sen 'doydum' dediğinde, beyin bunu sadece doygunluk değil, sunduğu emeğin ve ilginin reddi olarak algılar.\n3. Güvenlik ve Kontrol — Tabağa eklenen o ikinci porsiyon, senin hâlâ onun koruması altında olduğunu hissettiren sessiz bir onay mekanizmasıdır.\n\nKonu hiçbir zaman yemek olmadı, hep gösterilen ilgi ve bağdı. Ama yine de o dördüncü köfte tabağa konacak.\n\n📌 Kaydet — pazar kahvaltısında lazım olacak.\n🔁 Bunu annesinin tabağını reddedince evde kriz çıkan arkadaşına gönder.\nSen 'doydum' deyince tabağına ikinci porsiyon ekleniyor mu?\nYazan: Ece.\nTakip et: @kizlar.kodu — her şeyin bir sebebi var.",
   "hashtags": [
-    "#ciltbakimi",
-    "#güzellik",
-    "#dişsıkma",
-    "#çeneağrısı",
-    "#stresyönetimi",
-    "#kadınsağlığı",
-    "#masseter"
+    "#merak",
+    "#günlükhayat",
+    "#ailedinamiği",
+    "#annekız",
+    "#yeyavrum",
+    "#psikoloji"
   ],
-  "takeaway": "Ağrıyan çenen, gece yaşadığın o gizli savaşın yorgunluk madalyasıymış.",
+  "takeaway": "Tabağı reddetmek yemeği değil, annenin sevgisini reddetmek gibidir.",
   "footage_queries": [
-    "sleep mask on nightstand close up",
-    "herbal tea cup steam close up"
+    "cozy home interior soft light",
+    "coffee cup steam morning light"
   ],
   "narration": [
-    "Sabah çenen kilitliyse, yalnız değilsin!",
-    "Stres bastığında vücut kortizol hormonu salgılar.",
-    "Bu hormon, masseter kasına 'hazır ol' emri verir.",
-    "Masseter, tüm gece izometrik çalışıp gerilir.",
-    "Ağrıyan çenen, gece yaşadığın gizli savaşın madalyasıymış."
+    "Annenin 'ye yavrum' ısrarı neden bitmez?",
+    "Sen tabağı kalori görürsün, o ise sevgisini sunma biçimi görür.",
+    "Yemeği reddettiğinde beyin bunu doğrudan onun emeğini reddetmek gibi kodlar.",
+    "Tabağa eklenen ikinci porsiyon aslında bakım ve kontrol duygusunu tazeler.",
+    "Tabağı reddetmek yemeği değil, annenin sevgisini reddetmek gibi algılanır."
   ],
-  "subject": "diş sıkma",
-  "sendTo": "geceleri dişini sıkıp sabah ağrıyan çenesini gizleyen arkadaşına",
-  "soru": "Senin çenen gece mi kilitleniyor, gündüz mü?",
-  "theme": "#8fa8c8",
+  "subject": "ye yavrum",
+  "sendTo": "annesinin tabağını reddedince evde kriz çıkan arkadaşına",
+  "soru": "Sen 'doydum' deyince tabağına ikinci porsiyon ekleniyor mu?",
+  "theme": "#7de2d1",
   "brand": {
     "handle": "@cilt.kodu",
     "signoff": "güzellik, pazarlama değil",
@@ -101,29 +77,29 @@
   "footage": true,
   "beats": [
     {
-      "text": "Sabah çenen kilitliyse, yalnız değilsin!",
+      "text": "Annenin 'ye yavrum' ısrarı neden bitmez?",
       "start": 0.35,
-      "dur": 3.036
+      "dur": 2.479
     },
     {
-      "text": "Stres bastığında vücut kortizol hormonu salgılar.",
-      "start": 3.386,
-      "dur": 3.719
+      "text": "Sen tabağı kalori görürsün, o ise sevgisini sunma biçimi görür.",
+      "start": 2.829,
+      "dur": 3.904
     },
     {
-      "text": "Bu hormon, masseter kasına 'hazır ol' emri verir.",
-      "start": 7.105,
-      "dur": 3.719
+      "text": "Yemeği reddettiğinde beyin bunu doğrudan onun emeğini reddetmek gibi kodlar.",
+      "start": 6.732,
+      "dur": 4.709
     },
     {
-      "text": "Masseter, tüm gece izometrik çalışıp gerilir.",
-      "start": 10.824,
-      "dur": 3.415
+      "text": "Tabağa eklenen ikinci porsiyon aslında bakım ve kontrol duygusunu tazeler.",
+      "start": 11.442,
+      "dur": 4.585
     },
     {
-      "text": "Ağrıyan çenen, gece yaşadığın gizli savaşın madalyasıymış.",
-      "start": 14.239,
-      "dur": 5.502
+      "text": "Tabağı reddetmek yemeği değil, annenin sevgisini reddetmek gibi algılanır.",
+      "start": 16.027,
+      "dur": 5.685
     }
   ]
 }
