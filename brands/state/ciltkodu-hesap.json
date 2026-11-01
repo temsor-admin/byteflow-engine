@@ -1057,14 +1057,14 @@
   },
   {
     "date": "2026-11-01",
-    "followers": 23,
+    "followers": 21,
     "mediaCount": 29,
     "metrikler": {
-      "reach": 1,
+      "reach": 0,
       "views": 0,
-      "profile_views": 0,
+      "profile_views": 1,
       "accounts_engaged": 0
     },
-    "olcumAt": "2026-10-31T21:59:04.697Z"
+    "olcumAt": "2026-11-01T19:23:13.232Z"
   }
 ]
