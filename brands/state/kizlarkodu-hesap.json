@@ -1162,5 +1162,17 @@
       "accounts_engaged": 0
     },
     "olcumAt": "2026-11-08T20:59:35.735Z"
+  },
+  {
+    "date": "2026-11-09",
+    "followers": 2,
+    "mediaCount": 13,
+    "metrikler": {
+      "reach": 0,
+      "views": 0,
+      "profile_views": 0,
+      "accounts_engaged": 0
+    },
+    "olcumAt": "2026-11-08T23:50:40.071Z"
   }
 ]
